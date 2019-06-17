@@ -269,6 +269,7 @@ class AdbDebug(object):
                 return None
             else:
                 for item in pid:
+                    print(f"item: {item}")
                     if item.split()[8] == packname:
                         return item.split()[1]
         else:

@@ -148,7 +148,7 @@ class AppMoni(object):
             rate = int(strRate)
         else:
             rate = self.cpu_jiffrate(dev, packname)
-        print("--------设备：%s cpurate--------") % dev
+        print("--------设备：{} cpurate--------".format(dev))
         if rate >= 0 and flag == 0:
             if self.IsIP(dev) == True:
                 devIP = dev.split(':')[0].replace(".", "")
@@ -222,7 +222,7 @@ class AppMoni(object):
                 data = lis[i+1]
                 break
         mem = int(data)
-        print("--------设备：%s mem--------") % dev
+        print(f"--------设备：{dev} mem--------")
         if mem >= 0 and flag == 0:
             if self.IsIP(dev) == True:
                 devIP = dev.split(':')[0].replace(".", "")

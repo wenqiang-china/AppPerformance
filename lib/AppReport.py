@@ -28,17 +28,17 @@ class Report(object):
         lisFps = pick.readInfo(AppPerCon.info_path + self.dev + '_' + self.pack + '_' + self.flag + "_fps.pickle")
         lisDevinfo = pick.readInfo(AppPerCon.info_path + "info.pickle")
 
+        print("lisDevinfo: {}, dev: {}".format(lisDevinfo, dev))
+        # pix = lisDevinfo[0][dev]['header']['pix']
+        # net = lisDevinfo[0][dev]['header']['net']
+        # name = lisDevinfo[0][dev]['header']['phone_name']
+        # rom = lisDevinfo[0][dev]['header']['rom']
 
-        pix = lisDevinfo[0][dev]['header']['pix']
-        net = lisDevinfo[0][dev]['header']['net']
-        name = lisDevinfo[0][dev]['header']['phone_name']
-        rom = lisDevinfo[0][dev]['header']['rom']
 
-
-        devinfo = "设备信息-分辨率：" + pix + "\\"\
-                                      +"网络：" + net + "\\"\
-                                      +"设备名："+ name + "\\"\
-                                      +"内存容量："+ str(rom)+"MB"
+        # devinfo = "设备信息-分辨率：" + pix + "\\"\
+        #                               +"网络：" + net + "\\"\
+        #                               +"设备名："+ name + "\\"\
+        #                               +"内存容量："+ str(rom)+"MB"
 
 
 
@@ -54,18 +54,18 @@ class Report(object):
 
 
 
-        page = Page(self.reportName.decode('utf-8'))
+        page = Page(self.reportName)
 
         attr = v1
         bar = Bar()
         bar.add("ROKI_bar", attr, v2)
-        line = Line(self.reportName +"-"+"CPU占用", devinfo ,width=1200, height=400)
-        line.add("ROKI_line", attr, v2, is_stack=True, is_label_show=True,
-                 is_smooth=False ,is_more_utils =True,is_datazoom_show=False, yaxis_formatter="%",
-                 mark_point=["max", "min"], mark_line=["average"])
+        line = Line(self.reportName +"-"+"CPU占用", [] ,width=1200, height=400)
+        # line.add("ROKI_line", attr, v2, is_stack=True, is_label_show=True,
+        #          is_smooth=False ,is_more_utils =True,is_datazoom_show=False, yaxis_formatter="%",
+        #          mark_point=["max", "min"], mark_line=["average"])
 
         overlap = Overlap(self.reportName +"-"+"CPU占用", width=1200, height=400)
-        overlap.add(line)
+        # overlap.add(line)
         overlap.add(bar)
         page.add(overlap)
 
@@ -78,7 +78,7 @@ class Report(object):
         overlap1 = Overlap(width=1200, height=400)
         overlap1.add(line1)
         overlap1.add(bar1)
-        page.append(overlap1)
+        page.add(overlap1)
 
         attr2 = v5
         line2 = Line(self.reportName + "-" + "FPS帧率", width=1200, height=400)
@@ -89,7 +89,7 @@ class Report(object):
         overlap2 = Overlap(width=1200, height=400)
         overlap2.add(line2)
         overlap2.add(bar2)
-        page.append(overlap2)
+        page.add(overlap2)
 
         page.render(AppPerCon.report_path + self.dev +"_"+ self.pack + "_"+self.flag+"_"+"report.html")
 

@@ -5,14 +5,16 @@ import random,os
 
 class AppPerCon(object):
     # apk包名
-    package_name = "com.aliyun.alink"
+    package_name = "com.jifen.qukan"
     # 活动名
-    alink_Activity = 'com.aliyun.alink/.page.main.MainActivity'
+    alink_Activity = 'com.jifen.qkbase.main.MainActivity'
     # 默认设备列表
     device_dict = {}
     #手机安装应用默认UID,通过adb进行查询可获得
-    appuid = {'MATE8':{'com.robam.roki':'10274','com.UCMobile':'10156','com.aliyun.alink':'10222'},
-              'MATE10':{'com.robam.roki': '10164', 'com.UCMobile':'10138','com.aliyun.alink':'10145'}
+    appuid = {
+        # 'MATE8':{'com.robam.roki':'10274','com.UCMobile':'10156','com.aliyun.alink':'10222'},
+        #       'MATE10':{'com.robam.roki': '10164', 'com.UCMobile':'10138','com.aliyun.alink':'10145'},
+              "MEIZU": {"com.jifen.qukan": "10117"}
     }
     # 网络
     net = "wifi"

@@ -136,13 +136,13 @@ def logProcess(dev, runtime):
     logcat_log = path_log + "\\" + runtime + "logcat.log"
     cmd_logcat = "-s " + dev + " logcat -d > %s" % (logcat_log)
     ad.call_adb(cmd_logcat)
-    print 'logcat 完成'
+    print('logcat 完成')
 
     # "导出traces文件"
     traces_log = path_log + "\\" + runtime + "traces.log"
     cmd_traces = "-s " + dev + " shell cat /data/anr/traces.txt > %s" % (traces_log)
     ad.call_adb(cmd_traces)
-    print 'traces_log 完成'
+    print('traces_log 完成')
 
 
 # monkey启动函数
@@ -170,7 +170,7 @@ def monkeyStart(dev, runtime, flag):
 
 def mediMemTest(dev, app):
     print("--------------开始执行测试----------------")
-    print("--------------设备：%s 场景2：中等压力下APP性能指标----------------") % dev
+    print("--------------设备：%s 场景2：中等压力下APP性能指标----------------" % dev)
     ad.adbStopActivity(dev, Config.package_name)
     run_time = time.strftime("%Y-%m-%d_%H%M%S", time.localtime(time.time()))
     monkeyStart(dev, run_time, 1)
@@ -186,14 +186,14 @@ def mediMemTest(dev, app):
                     app[dev] = {"header": get_phone(dev)}
                     app[dev]["header"]["net"] = Config.net
                     pick.writeInfo(app, PATH(Config.info_path + "info.pickle"))
-                    print "--------------设备：%s 场景2：中等压力下测试完成----------------" % dev
+                    print("--------------设备：%s 场景2：中等压力下测试完成----------------" % dev)
                     break
         except:
             break
 
 def fullMemTest(dev):
     print("--------------开始执行测试----------------")
-    print("--------------设备：%s 场景3：满压力下APP性能指标----------------") % dev
+    print("--------------设备：%s 场景3：满压力下APP性能指标----------------" % dev)
     ad.adbStopActivity(dev, Config.package_name)
     run_time = time.strftime("%Y-%m-%d_%H%M%S", time.localtime(time.time()))
     monkeyStart(dev, run_time, 2)
@@ -207,7 +207,7 @@ def fullMemTest(dev):
                 #fps测试需要事先开启手机开发者模式里的GPU显示，否则运行出错
                 apm.pid_fps(dev, Config.package_name, 2)
                 if monkeylog.read().count('Monkey finished') > 0:
-                    print "--------------设备：%s 场景3：满压力下测试完成----------------" % dev
+                    print("--------------设备：%s 场景3：满压力下测试完成----------------" % dev)
                     break
         except:
             break
@@ -220,10 +220,10 @@ def start(dev):
     unlockScreen(dev)
     # 中等压力下测试
     mediMemTest(dev, app)
-    print '生成测试报告......'
+    print('生成测试报告......')
     rep = Report(dev, "Alink V2.6.17 性能测试报告", "Medium")
     rep.createReport(dev)
-    print '测试报告生成完毕'
+    print('测试报告生成完毕')
 
 #启动MONKEY多线程
 class MonkeyTestThread(threading.Thread):
@@ -253,7 +253,7 @@ def create_threads_monkey(device_list):
 if __name__ == '__main__':
     device_dir = os.path.exists(AppPerCon.info_path)
     if device_dir:
-        print ("持久性目录info已存在，继续执行测试!")
+        print("持久性目录info已存在，继续执行测试!")
     else:
         #os.mkdir(AppPerformanceConfig.info_path)  # 创建持久性目录,需要在文件存在的情况下创建二级目录
         os.makedirs(AppPerCon.info_path)   # 使用makedirs可以在文件夹不存在的情况下直接创建

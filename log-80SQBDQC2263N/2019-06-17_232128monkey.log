@@ -1,0 +1,3335 @@
+:Monkey: seed=200 count=2500
+:AllowPackage: com.jifen.qukan
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.meizu.flyme.alarmclock.DeskClock (from package com.android.alarmclock)
+//   - NOT USING main activity com.android.browser.BrowserActivity (from package com.android.browser)
+//   - NOT USING main activity com.android.dialer.DialtactsActivity (from package com.android.dialer)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.android.soundrecorder.MzRecorderActivity (from package com.android.soundrecorder)
+//   - NOT USING main activity com.meizu.flyme.venice.modules.home.HomePageActivity (from package com.meizu.compaign)
+//   - NOT USING main activity com.meizu.flyme.launcher.Launcher (from package com.meizu.flyme.launcher)
+//   - NOT USING main activity com.meizu.flyme.update.SystemUpgradeListActivity (from package com.meizu.flyme.update)
+//   - NOT USING main activity com.meizu.media.camera.CameraLauncher (from package com.meizu.media.camera)
+//   - NOT USING main activity com.meizu.media.gallery.GalleryActivity (from package com.meizu.media.gallery)
+//   - NOT USING main activity com.meizu.flyme.appcenter.activitys.AppMainActivity (from package com.meizu.mstore)
+//   - NOT USING main activity com.achievo.vipshop.activity.LodingActivity (from package com.achievo.vipshop)
+//   - NOT USING main activity com.android.email.activity.EmailActivity (from package com.android.email)
+//   - NOT USING main activity com.cto51.student.loading.LoadingActivity (from package com.cto51.student)
+//   - NOT USING main activity com.didi.es.biz.startpage.StartActivity (from package com.didi.es.psngr)
+//   - NOT USING main activity com.liulishuo.engzo.app.activity.LauncherActivity (from package com.liulishuo.engzo)
+//   - NOT USING main activity com.meizu.net.pedometer.ui.PedometerMainActivitys (from package com.meizu.net.pedometer)
+//   - NOT USING main activity com.meizu.flyme.notepaper.app.NotePaperActivity (from package com.meizu.notepaper)
+//   - NOT USING main activity com.tencent.edu.module.SplashActivity (from package com.tencent.edu)
+//   - NOT USING main activity com.android.providers.downloads.ui.DownloadActivity (from package com.android.providers.downloads.ui)
+//   - NOT USING main activity com.meizu.store.newhome.NewHomeActivity (from package com.flyme.meizu.store)
+//   - NOT USING main activity com.meizu.customizecenter.frame.activity.CustomizeCenterActivity (from package com.meizu.customizecenter)
+//   - NOT USING main activity com.meizu.feedback.activity.MainActivity (from package com.meizu.feedback)
+//   - NOT USING main activity com.meizu.flyme.filemanager.activity.HomeActivity (from package com.meizu.filemanager)
+//   - NOT USING main activity com.meizu.flyme.calculator.Calculator (from package com.meizu.flyme.calculator)
+//   - NOT USING main activity com.meizu.flyme.gamecenter.activity.DefaultActivity (from package com.meizu.flyme.gamecenter)
+//   - NOT USING main activity com.meizu.flyme.toolbox.activity.ToolBoxActivity (from package com.meizu.flyme.toolbox)
+//   - NOT USING main activity com.meizu.flyme.wallet.activity.WalletTabActivity (from package com.meizu.flyme.wallet)
+//   - NOT USING main activity com.meizu.media.life.base.home.HomeActivity (from package com.meizu.media.life)
+//   - NOT USING main activity com.meizu.media.music.MusicActivity (from package com.meizu.media.music)
+//   - NOT USING main activity com.meizu.media.reader.ReaderMainActivity (from package com.meizu.media.reader)
+//   - NOT USING main activity com.meizu.media.video.VideoMainActivity (from package com.meizu.media.video)
+//   - NOT USING main activity com.meizu.mznfcpay.homepage.HomeActivity (from package com.meizu.mznfcpay)
+//   - NOT USING main activity com.meizu.safe.SecurityMainActivity (from package com.meizu.safe)
+//   - NOT USING main activity com.meizu.voiceassistant.MainActivity (from package com.meizu.voiceassistant)
+//   - NOT USING main activity cmb.pb.app.mainframe.PBEntryActivity (from package cmb.pb)
+//   - NOT USING main activity com.imooc.component.imoocmain.splash.MCSplashActivity (from package cn.com.open.mooc)
+//   - NOT USING main activity cn.gov.tax.its.MainActivity (from package cn.gov.tax.its)
+//   - NOT USING main activity cn.missfresh.module.base.main.view.SplashActivity (from package cn.missfresh.application)
+//   - NOT USING main activity cn.rpg8.abyteofpython.abyteofpython (from package cn.rpg8.abyteofpython)
+//   - NOT USING main activity com.uzmap.pkg.EntranceActivity (from package cn.w3cschool.app)
+//   - NOT USING main activity com.alipay.mobile.quinox.LauncherActivity (from package com.MobileTicket)
+//   - NOT USING main activity com.alibaba.android.rimet.biz.LaunchHomeActivity (from package com.alibaba.android.rimet)
+//   - NOT USING main activity com.meizu.flyme.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.alipay.mobile.quinox.LauncherActivity (from package com.app.shanghai.metro)
+//   - NOT USING main activity com.autonavi.map.activity.SplashActivity (from package com.autonavi.minimap)
+//   - NOT USING main activity com.baidu.netdisk.ui.Navigate (from package com.baidu.netdisk)
+//   - NOT USING main activity com.ccb.start.MainActivity (from package com.chinamworld.main)
+//   - NOT USING main activity com.dailyyoga.cn.module.welcome.AdvertActivity (from package com.dailyyoga.cn)
+//   - NOT USING main activity com.dianping.main.guide.SplashScreenActivity (from package com.dianping.v1)
+//   - NOT USING main activity com.eg.android.AlipayGphone.AlipayLogin (from package com.eg.android.AlipayGphone)
+//   - NOT USING main activity com.light.beauty.login.LoadingPageActivity (from package com.gorgeous.lite)
+//   - NOT USING main activity com.gotokeep.keep.splash.SplashActivity (from package com.gotokeep.keep)
+//   - NOT USING main activity com.hpbr.bosszhipin.module.launcher.WelcomeActivity (from package com.hpbr.bosszhipin)
+//   + Using main activity com.jifen.qkbase.main.MainActivity (from package com.jifen.qukan)
+//   - NOT USING main activity com.jingdong.app.mall.main.MainActivity (from package com.jingdong.app.mall)
+//   - NOT USING main activity com.jm.android.jumei.home.activity.StartActivity (from package com.jm.android.jumei)
+//   - NOT USING main activity com.jnzc.shipudaquan.Welcome (from package com.jnzc.shipudaquan)
+//   - NOT USING main activity com.caiyi.sports.fitness.activity.SplashActivity (from package com.jsjf.jsjftry)
+//   - NOT USING main activity com.kugou.android.app.splash.SplashActivity (from package com.kugou.android)
+//   - NOT USING main activity com.lietou.mishu.activity.LPSplashActivity (from package com.lietou.mishu)
+//   - NOT USING main activity com.meitu.meiyancamera.MyxjActivity (from package com.meitu.meiyancamera)
+//   - NOT USING main activity com.meizu.flyme.weather.modules.home.WeatherMainActivity (from package com.meizu.flyme.weather)
+//   - NOT USING main activity com.meizu.mcare.ui.SplashActivity (from package com.meizu.mcare)
+//   - NOT USING main activity com.zhaoxitech.zxbook.splash.SplashActivity (from package com.meizu.media.ebook)
+//   - NOT USING main activity com.netease.edu.study.activity.ActivityWelcome (from package com.netease.edu.study)
+//   - NOT USING main activity com.alipay.mobile.quinox.LauncherActivity (from package com.nfyg.hsbb)
+//   - NOT USING main activity com.shjt.map.MainActivity (from package com.shjt.map)
+//   - NOT USING main activity com.sina.weibo.SplashActivity (from package com.sina.weibo)
+//   - NOT USING main activity com.sinovatech.unicom.ui.WelcomeClient (from package com.sinovatech.unicom.ui)
+//   - NOT USING main activity com.suning.mobile.ebuy.host.InitialActivity (from package com.suning.mobile.ebuy)
+//   - NOT USING main activity com.tal.kaoyan.ui.activity.SplashActivity (from package com.tal.kaoyan)
+//   - NOT USING main activity com.taobao.fleamarket.home.activity.InitActivity (from package com.taobao.idlefish)
+//   - NOT USING main activity com.taobao.tao.welcome.Welcome (from package com.taobao.taobao)
+//   - NOT USING main activity com.alipay.mobile.quinox.LauncherActivity (from package com.taobao.trip)
+//   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+//   - NOT USING main activity com.epicgames.ue4.SplashActivity (from package com.tencent.tmgp.pubgmhd)
+//   - NOT USING main activity com.tencent.tmgp.sgame.SGameActivity (from package com.tencent.tmgp.sgame)
+//   - NOT USING main activity com.tencent.weread.LauncherActivity (from package com.tencent.weread)
+//   - NOT USING main activity com.tencent.wework.launch.LaunchSplashActivity (from package com.tencent.wework)
+//   - NOT USING main activity com.xingin.xhs.activity.SplashActivity (from package com.xingin.xhs)
+//   - NOT USING main activity com.xunmeng.pinduoduo.ui.activity.MainFrameActivity (from package com.xunmeng.pinduoduo)
+//   - NOT USING main activity com.yeshi.ec.rebate.myapplication.ui.SplashActivity (from package com.yeshi.ec.rebate)
+//   - NOT USING main activity com.youku.phone.ActivityWelcome (from package com.youku.phone)
+//   - NOT USING main activity com.zhihu.android.app.ui.activity.LauncherActivity (from package com.zhihu.android)
+//   - NOT USING main activity org.geekbang.geekTime.project.start.LaunchActivity (from package org.geekbang.geekTime)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.meizu.battery.BatteryMainActivity (from package com.meizu.battery)
+//   - NOT USING main activity com.meizu.flyme.launcher.Launcher (from package com.meizu.flyme.launcher)
+//   - NOT USING main activity com.meizu.backup.mvp.main.MainBackActivity (from package com.meizu.backup)
+//   - NOT USING main activity com.meizu.connectivitysettings.ConnectivitySettingsMonkeyActivity (from package com.meizu.connectivitysettings)
+// Seeded: 200
+// Event percentages:
+//   0: 80.0%
+//   1: 5.0%
+//   2: 0.0%
+//   3: 5.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 0.0%
+//   7: 0.0%
+//   8: 1.0%
+//   9: 9.0%
+//   10: 0.0%
+//   11: 0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(346.0,1593.0)
+:Sending Touch (ACTION_UP): 0:(353.45584,1596.3502)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(883.0,1267.0)
+:Sending Touch (ACTION_MOVE): 0:(877.63684,1283.1472)
+:Sending Touch (ACTION_MOVE): 0:(868.0249,1290.8451)
+:Sending Touch (ACTION_MOVE): 0:(855.43634,1291.1497)
+:Sending Touch (ACTION_MOVE): 0:(839.9988,1294.455)
+:Sending Touch (ACTION_MOVE): 0:(834.22034,1297.791)
+:Sending Touch (ACTION_MOVE): 0:(822.9952,1301.0004)
+:Sending Touch (ACTION_UP): 0:(802.0305,1305.4341)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(296.0,1532.0)
+:Sending Touch (ACTION_UP): 0:(300.83014,1520.7019)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1000.0,1203.0)
+:Sending Touch (ACTION_UP): 0:(999.13983,1192.7307)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(311.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(300.85605,1172.6642)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(885.0,642.0)
+:Sending Touch (ACTION_UP): 0:(885.7863,633.9368)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(269.0,1594.0)
+:Sending Touch (ACTION_UP): 0:(264.90097,1579.2167)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,1869.0)
+:Sending Touch (ACTION_UP): 0:(567.5982,1874.2546)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(840.0,678.0)
+:Sending Touch (ACTION_UP): 0:(836.9663,665.0047)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(848.0,1305.0)
+:Sending Touch (ACTION_UP): 0:(845.09265,1309.8436)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(315.0,67.0)
+:Sending Touch (ACTION_UP): 0:(315.20062,76.21523)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(759.0,201.0)
+:Sending Touch (ACTION_UP): 0:(737.072,203.7974)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(408.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(391.68588,1077.4384)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1076.0,1215.0)
+:Sending Touch (ACTION_UP): 0:(1070.4016,1217.7996)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,742.0)
+:Sending Touch (ACTION_UP): 0:(235.35959,741.9013)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(890.0,1757.0)
+:Sending Touch (ACTION_UP): 0:(883.6732,1746.1407)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,1012.0)
+:Sending Touch (ACTION_UP): 0:(271.6834,1032.9048)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(770.0,1157.0)
+:Sending Touch (ACTION_UP): 0:(758.1596,1147.5619)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,112.0)
+:Sending Touch (ACTION_UP): 0:(473.8369,97.67627)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,530.0)
+:Sending Touch (ACTION_UP): 0:(1001.002,527.2518)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(417.0,134.0)
+:Sending Touch (ACTION_UP): 0:(420.61597,134.68541)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1069.0,1328.0)
+:Sending Touch (ACTION_UP): 0:(1076.6313,1348.8143)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(365.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(361.24,1196.2585)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(851.0,1207.0)
+:Sending Touch (ACTION_UP): 0:(848.331,1214.6212)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(606.0,32.0)
+:Sending Touch (ACTION_UP): 0:(608.34625,30.723227)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(44.0,584.0)
+:Sending Touch (ACTION_UP): 0:(48.987137,584.18756)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(566.0,1902.0)
+:Sending Touch (ACTION_UP): 0:(556.2538,1902.1824)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(997.0,1020.0)
+:Sending Touch (ACTION_UP): 0:(1007.28784,1020.7446)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1014.0,664.0)
+:Sending Touch (ACTION_UP): 0:(1014.0213,672.4)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(936.0,567.0)
+:Sending Touch (ACTION_UP): 0:(955.7831,555.6746)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(359.0,1275.0)
+:Sending Touch (ACTION_UP): 0:(372.40472,1288.5306)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1078.0,928.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,929.77423)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(855.0,520.0)
+:Sending Touch (ACTION_UP): 0:(852.42303,514.486)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,658.0)
+:Sending Touch (ACTION_UP): 0:(539.95856,662.6097)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(144.0,572.0)
+:Sending Touch (ACTION_UP): 0:(143.49753,560.354)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1042.0,1103.0)
+:Sending Touch (ACTION_UP): 0:(1045.1658,1104.128)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1054.0,1273.0)
+    //[calendar_time:2019-06-17 23:21:44.377  system_uptime:85464827]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(1049.6912,1281.22)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(682.0,1727.0)
+:Sending Touch (ACTION_UP): 0:(684.1079,1720.3055)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(938.0,1535.0)
+:Sending Touch (ACTION_UP): 0:(946.1262,1532.1927)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(111.0,487.0)
+:Sending Touch (ACTION_UP): 0:(108.376495,486.56995)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(792.0,1902.0)
+:Sending Touch (ACTION_UP): 0:(795.3934,1902.77)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(634.0,1666.0)
+:Sending Touch (ACTION_UP): 0:(637.93463,1662.6151)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(1053.0,519.0)
+:Sending Touch (ACTION_UP): 0:(1047.8154,501.74673)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(140.0,1370.0)
+:Sending Touch (ACTION_UP): 0:(151.78998,1369.9926)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(405.0,1070.0)
+:Sending Touch (ACTION_UP): 0:(418.89548,1073.2562)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(263.0,507.0)
+:Sending Touch (ACTION_UP): 0:(272.11926,502.25943)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(828.0,587.0)
+:Sending Touch (ACTION_MOVE): 0:(819.1835,586.8303)
+:Sending Touch (ACTION_MOVE): 0:(813.1541,586.7728)
+:Sending Touch (ACTION_MOVE): 0:(793.56256,584.7583)
+:Sending Touch (ACTION_MOVE): 0:(785.09686,584.7501)
+:Sending Touch (ACTION_MOVE): 0:(761.77075,582.5244)
+:Sending Touch (ACTION_MOVE): 0:(757.2119,581.6112)
+:Sending Touch (ACTION_MOVE): 0:(747.6321,580.0605)
+:Sending Touch (ACTION_MOVE): 0:(730.6422,577.23596)
+:Sending Touch (ACTION_UP): 0:(720.2903,576.2057)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(55.0,805.0)
+:Sending Touch (ACTION_UP): 0:(39.75047,816.6192)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,144.0)
+:Sending Touch (ACTION_UP): 0:(618.5636,149.75577)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(771.0,1017.0)
+:Sending Touch (ACTION_UP): 0:(775.3012,1030.946)
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(402.0,494.0)
+:Sending Touch (ACTION_UP): 0:(403.72882,493.5745)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(523.0,1776.0)
+:Sending Touch (ACTION_UP): 0:(526.7187,1777.9944)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(680.0,708.0)
+:Sending Touch (ACTION_UP): 0:(668.50433,712.9525)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(381.0,1305.0)
+:Sending Touch (ACTION_UP): 0:(383.4298,1301.3081)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(820.0,377.0)
+:Sending Touch (ACTION_UP): 0:(820.8726,377.86392)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(611.0,1024.0)
+:Sending Touch (ACTION_UP): 0:(602.91876,1025.8657)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(453.0,1310.0)
+:Sending Touch (ACTION_UP): 0:(446.07266,1310.278)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(404.0,937.0)
+:Sending Touch (ACTION_UP): 0:(405.44992,952.98615)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(499.0,308.0)
+:Sending Touch (ACTION_UP): 0:(500.1513,304.27698)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(356.0,1361.0)
+:Sending Touch (ACTION_UP): 0:(353.44617,1356.7946)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(861.0,1446.0)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.search.H5SearchActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_UP): 0:(857.1147,1429.4344)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(965.0,1653.0)
+:Sending Touch (ACTION_UP): 0:(975.12427,1652.2192)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(653.0,379.0)
+:Sending Touch (ACTION_MOVE): 0:(671.3135,381.57498)
+:Sending Touch (ACTION_MOVE): 0:(672.2444,384.7035)
+:Sending Touch (ACTION_MOVE): 0:(685.0875,392.15555)
+:Sending Touch (ACTION_MOVE): 0:(685.36084,392.9834)
+:Sending Touch (ACTION_MOVE): 0:(685.4978,399.8264)
+:Sending Touch (ACTION_MOVE): 0:(703.13153,405.67215)
+:Sending Touch (ACTION_UP): 0:(716.37524,409.981)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(206.0,712.0)
+:Sending Touch (ACTION_UP): 0:(204.6304,728.12604)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(350.0,1204.0)
+:Sending Touch (ACTION_UP): 0:(353.66183,1188.5448)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(743.0,1302.0)
+:Sending Touch (ACTION_UP): 0:(730.7896,1314.6353)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(803.0,1428.0)
+:Sending Touch (ACTION_UP): 0:(799.02966,1435.232)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1.0,1131.0)
+:Sending Touch (ACTION_UP): 0:(2.1603904,1129.9866)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(111.0,1254.0)
+:Sending Touch (ACTION_UP): 0:(110.44845,1266.9325)
+    //[calendar_time:2019-06-17 23:21:52.298  system_uptime:85472745]
+    // Sending event #200
+Sleeping for 150 milliseconds
+    //[calendar_time:2019-06-17 23:21:52.450  system_uptime:85472897]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(9.0,962.0)
+:Sending Touch (ACTION_UP): 0:(8.238072,975.07825)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(363.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(363.32794,1161.25)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(967.0,581.0)
+:Sending Touch (ACTION_UP): 0:(964.7472,577.53796)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(163.0,336.0)
+:Sending Touch (ACTION_UP): 0:(161.21016,327.5726)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(713.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(726.5358,1249.3728)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(521.01,1021.68335)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(153.0,492.0)
+:Sending Touch (ACTION_UP): 0:(152.65555,474.6697)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(326.0,1364.0)
+:Sending Touch (ACTION_UP): 0:(323.4914,1361.3955)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(504.0,936.0)
+:Sending Touch (ACTION_UP): 0:(508.7286,935.80164)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(674.0,350.0)
+:Sending Touch (ACTION_UP): 0:(674.3482,346.15158)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(200.0,504.0)
+:Sending Touch (ACTION_UP): 0:(197.90288,486.75677)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1055.0,1818.0)
+:Sending Touch (ACTION_UP): 0:(1057.6256,1834.2957)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(823.0,1584.0)
+:Sending Touch (ACTION_UP): 0:(835.44006,1587.009)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(958.0,1153.0)
+:Sending Touch (ACTION_UP): 0:(946.3276,1152.333)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(316.0,1324.0)
+:Sending Touch (ACTION_UP): 0:(315.90378,1332.6107)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(234.0,1598.0)
+:Sending Touch (ACTION_MOVE): 0:(233.91791,1597.93)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(233.60472,1582.2411)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(230.24225,1572.727)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(225.55542,1569.2551)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(223.89241,1567.7806)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(219.77289,1556.4257)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(247.0,1160.0)
+:Sending Touch (ACTION_UP): 0:(254.21713,1162.489)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,671.0)
+:Sending Touch (ACTION_UP): 0:(603.64716,663.13513)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(884.0,1884.0)
+:Sending Touch (ACTION_UP): 0:(888.9418,1896.2163)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1050.0,77.0)
+:Sending Touch (ACTION_UP): 0:(1037.1255,72.77301)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(139.0,837.0)
+:Sending Touch (ACTION_UP): 0:(133.30402,827.5614)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(305.0,1686.0)
+:Sending Touch (ACTION_UP): 0:(313.08716,1699.7006)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(451.0,1485.0)
+:Sending Touch (ACTION_UP): 0:(433.92538,1464.0007)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(520.0,280.0)
+:Sending Touch (ACTION_UP): 0:(521.4221,280.1438)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(873.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(865.77356,1389.9319)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(958.0,1328.0)
+:Sending Touch (ACTION_UP): 0:(956.9062,1319.1088)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1017.0,1130.0)
+:Sending Touch (ACTION_UP): 0:(1016.999,1131.1333)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(51.0,661.0)
+:Sending Touch (ACTION_UP): 0:(43.010544,663.5057)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(272.0,99.0)
+:Sending Touch (ACTION_UP): 0:(272.80075,101.24439)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1064.0,1303.0)
+:Sending Touch (ACTION_UP): 0:(1059.7185,1307.3827)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(805.0,1851.0)
+:Sending Touch (ACTION_UP): 0:(817.4346,1854.1321)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(222.0,1364.0)
+:Sending Touch (ACTION_UP): 0:(212.77747,1349.9169)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(188.0,443.0)
+:Sending Touch (ACTION_UP): 0:(188.08897,444.7669)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,1552.0)
+:Sending Touch (ACTION_UP): 0:(593.599,1568.2623)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(73.0,1643.0)
+:Sending Touch (ACTION_UP): 0:(89.888794,1634.3958)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1077.0,1319.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1322.9937)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+    //[calendar_time:2019-06-17 23:21:59.308  system_uptime:85479755]
+    // Sending event #300
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(806.0,1909.0)
+:Sending Touch (ACTION_UP): 0:(819.2905,1907.117)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(85.0,584.0)
+:Sending Touch (ACTION_UP): 0:(79.46183,568.81976)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.video.VideoNewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(200.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(200.9364,1216.3735)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(85.0,349.0)
+:Sending Touch (ACTION_MOVE): 0:(79.31,348.63345)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(76.663155,345.1771)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(76.13782,342.58163)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(69.740456,339.16556)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(65.17809,338.13455)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(64.11757,336.04077)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(63.05622,332.03442)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(57.24782,331.54572)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(159.0,1268.0)
+:Sending Touch (ACTION_UP): 0:(166.71916,1266.9536)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,629.0)
+:Sending Touch (ACTION_UP): 0:(380.11255,630.4287)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(661.0,819.0)
+:Sending Touch (ACTION_UP): 0:(666.2677,815.89)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(67.0,1749.0)
+:Sending Touch (ACTION_UP): 0:(70.03555,1753.3453)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(818.0,1243.0)
+:Sending Touch (ACTION_UP): 0:(810.93866,1244.7743)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(614.0,1845.0)
+:Sending Touch (ACTION_UP): 0:(614.65424,1839.6232)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(184.0,1127.0)
+:Sending Touch (ACTION_UP): 0:(183.3946,1119.2284)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    // activityResuming(com.jifen.qukan)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.video.VideoNewsDetailNewActivity } in package com.jifen.qukan
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(572.0,359.0)
+:Sending Touch (ACTION_UP): 0:(565.51074,358.55457)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { dat=http://oss.cdn.aiclk.com/... typ=text/html cmp=com.jifen.qukan/com.iclicash.advlib.ui.front.ADBrowser } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(47.0,1692.0)
+:Sending Touch (ACTION_UP): 0:(29.265295,1692.4877)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(593.0,1915.0)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(591.35547,1920.0)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1011.0,428.0)
+:Sending Touch (ACTION_UP): 0:(1000.37335,434.3311)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(694.0,712.0)
+:Sending Touch (ACTION_UP): 0:(683.05475,718.8336)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(787.0,79.0)
+:Sending Touch (ACTION_MOVE): 0:(776.0354,82.69109)
+:Sending Touch (ACTION_MOVE): 0:(771.594,83.05047)
+:Sending Touch (ACTION_MOVE): 0:(767.92255,92.383484)
+:Sending Touch (ACTION_MOVE): 0:(767.35095,100.80962)
+:Sending Touch (ACTION_UP): 0:(753.35913,103.95294)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(176.0,1148.0)
+:Sending Touch (ACTION_UP): 0:(152.22949,1162.0258)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { dat=http://oss.cdn.aiclk.com/... typ=text/html cmp=com.jifen.qukan/com.iclicash.advlib.ui.front.ADBrowser } in package com.jifen.qukan
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.video.VideoNewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(366.0,39.0)
+:Sending Touch (ACTION_UP): 0:(360.44226,26.980675)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(506.0,1600.0)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(506.44772,1608.383)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { dat=http://oss.cdn.aiclk.com/... typ=text/html cmp=com.jifen.qukan/com.iclicash.advlib.ui.front.ADBrowser } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(827.0,1438.0)
+:Sending Touch (ACTION_UP): 0:(827.29407,1444.1101)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(131.0,1391.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(135.3261,1402.6534)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,766.0)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(1013.2464,766.1492)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(539.0,1705.0)
+:Sending Touch (ACTION_UP): 0:(535.9283,1701.3153)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,537.0)
+:Sending Touch (ACTION_UP): 0:(143.6623,546.73535)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(948.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(946.82385,1837.5781)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(873.0,1245.0)
+:Sending Touch (ACTION_UP): 0:(874.03107,1227.727)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(482.0,1139.0)
+:Sending Touch (ACTION_UP): 0:(478.09747,1128.2438)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(988.0,392.0)
+:Sending Touch (ACTION_UP): 0:(984.44617,397.82132)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(792.0,1835.0)
+:Sending Touch (ACTION_UP): 0:(792.4376,1834.0591)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(66.0,1010.0)
+:Sending Touch (ACTION_UP): 0:(56.02619,1015.3902)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(787.0,1304.0)
+:Sending Touch (ACTION_UP): 0:(808.6169,1299.6669)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(954.0,1140.0)
+    //[calendar_time:2019-06-17 23:22:09.321  system_uptime:85489769]
+    // Sending event #400
+:Sending Touch (ACTION_UP): 0:(946.56305,1147.1119)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(969.0,1545.0)
+:Sending Touch (ACTION_UP): 0:(967.38257,1558.4661)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1023.0,214.0)
+:Sending Touch (ACTION_UP): 0:(1040.545,221.49603)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(997.0,761.0)
+:Sending Touch (ACTION_UP): 0:(998.1917,741.45)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(212.0,1200.0)
+:Sending Touch (ACTION_UP): 0:(205.02318,1198.8861)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(15.0,738.0)
+:Sending Touch (ACTION_UP): 0:(2.7107258,742.808)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(674.0,501.0)
+:Sending Touch (ACTION_UP): 0:(665.4662,499.5805)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(101.0,165.0)
+:Sending Touch (ACTION_UP): 0:(83.46832,167.01367)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(150.0,161.0)
+:Sending Touch (ACTION_MOVE): 0:(143.67381,158.84744)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(134.55588,158.54788)
+:Sending Touch (ACTION_MOVE): 0:(126.9827,152.09132)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.video.VideoNewsDetailNewActivity } in package com.jifen.qukan
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.video.VideoNewsDetailNewActivity } in package com.jifen.qukan
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(123.146645,147.07689)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(113.945015,140.34557)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(108.21794,137.19507)
+:Sending Touch (ACTION_MOVE): 0:(101.07816,134.6824)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(91.63007,128.87073)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(81.09321,123.91989)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(80.80296,123.47068)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(944.0,254.0)
+:Sending Touch (ACTION_UP): 0:(961.3499,254.9501)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(578.0,1679.0)
+:Sending Touch (ACTION_UP): 0:(586.55457,1671.2998)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(320.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(321.11008,1259.6802)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(221.0,1250.0)
+:Sending Touch (ACTION_UP): 0:(220.93019,1246.1764)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,822.0)
+:Sending Touch (ACTION_UP): 0:(341.15656,834.1079)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(543.0,702.0)
+:Sending Touch (ACTION_UP): 0:(542.8335,701.07855)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(307.0,1334.0)
+:Sending Touch (ACTION_UP): 0:(305.8372,1321.6222)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(184.0,206.0)
+:Sending Touch (ACTION_MOVE): 0:(188.33615,204.46533)
+:Sending Touch (ACTION_MOVE): 0:(192.50334,199.09944)
+:Sending Touch (ACTION_MOVE): 0:(196.20815,193.59892)
+:Sending Touch (ACTION_MOVE): 0:(199.04488,189.10533)
+:Sending Touch (ACTION_UP): 0:(204.28145,185.0692)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(907.0,1312.0)
+:Sending Touch (ACTION_UP): 0:(905.9448,1296.5026)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/com.jifen.qkbase.web.WebActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(458.0,1602.0)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(474.74445,1601.4104)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(721.0,1158.0)
+:Sending Touch (ACTION_MOVE): 0:(725.8532,1157.7946)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(725.9478,1156.759)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(727.8049,1155.756)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(730.19434,1155.7119)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(737.8616,1154.447)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(739.6292,1152.7258)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(219.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(229.07155,1170.8253)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(680.0,814.0)
+:Sending Touch (ACTION_UP): 0:(680.5454,818.8136)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,904.0)
+:Sending Touch (ACTION_UP): 0:(104.30049,908.4263)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(494.0,1473.0)
+:Sending Touch (ACTION_UP): 0:(472.95953,1480.8497)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(93.0,1404.0)
+:Sending Touch (ACTION_UP): 0:(75.45755,1413.3896)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(949.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(948.8433,1045.6604)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(546.0,1341.0)
+:Sending Touch (ACTION_UP): 0:(543.36365,1333.8739)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(533.0,1612.0)
+:Sending Touch (ACTION_UP): 0:(539.7899,1611.1913)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(894.0,1784.0)
+:Sending Touch (ACTION_UP): 0:(891.10864,1773.6342)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(87.0,206.0)
+:Sending Touch (ACTION_UP): 0:(85.982086,206.15163)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(591.0,730.0)
+:Sending Touch (ACTION_UP): 0:(591.371,724.6407)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(33.0,150.0)
+:Sending Touch (ACTION_UP): 0:(33.75325,135.6489)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(656.0,1001.0)
+:Sending Touch (ACTION_UP): 0:(656.97363,989.34106)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(863.0,165.0)
+:Sending Touch (ACTION_UP): 0:(856.81213,163.65645)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(933.0,571.0)
+:Sending Touch (ACTION_UP): 0:(918.5062,568.50006)
+    //[calendar_time:2019-06-17 23:22:22.280  system_uptime:85502727]
+    // Sending event #500
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+    //[calendar_time:2019-06-17 23:22:22.431  system_uptime:85502878]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(542.0,256.0)
+:Sending Touch (ACTION_UP): 0:(540.6424,262.20145)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(874.0,1606.0)
+:Sending Touch (ACTION_UP): 0:(872.8997,1623.0503)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(837.0,258.0)
+:Sending Touch (ACTION_UP): 0:(856.58,256.145)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(173.0,231.0)
+:Sending Touch (ACTION_UP): 0:(174.41324,220.2707)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(179.0,1827.0)
+:Sending Touch (ACTION_UP): 0:(193.40059,1823.4465)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(675.0,485.0)
+:Sending Touch (ACTION_UP): 0:(675.42755,493.7302)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(509.0,1712.0)
+:Sending Touch (ACTION_UP): 0:(520.7118,1710.0968)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(458.0,334.0)
+:Sending Touch (ACTION_UP): 0:(465.88217,339.07532)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(85.0,955.0)
+:Sending Touch (ACTION_UP): 0:(83.709435,959.1587)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(276.0,439.0)
+:Sending Touch (ACTION_UP): 0:(284.21317,440.75443)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(51.0,603.0)
+:Sending Touch (ACTION_UP): 0:(62.378838,594.1911)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,659.0)
+:Sending Touch (ACTION_UP): 0:(548.94824,645.7018)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(233.0,291.0)
+:Sending Touch (ACTION_UP): 0:(240.30725,272.6545)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(93.0,175.0)
+:Sending Touch (ACTION_UP): 0:(102.229706,175.57477)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(87.0,1563.0)
+    // activityResuming(com.jifen.qukan)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(86.321365,1563.0181)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(118.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(122.542854,1298.9054)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(331.0,98.0)
+:Sending Touch (ACTION_UP): 0:(335.5406,97.7796)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(979.0,420.0)
+:Sending Touch (ACTION_UP): 0:(969.70667,411.4784)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(382.0,1766.0)
+:Sending Touch (ACTION_UP): 0:(378.10983,1765.7361)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+:Sending Touch (ACTION_DOWN): 0:(186.0,869.0)
+:Sending Touch (ACTION_UP): 0:(196.16191,854.8317)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,769.0)
+:Sending Touch (ACTION_UP): 0:(121.97364,771.2373)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(391.0,254.0)
+:Sending Touch (ACTION_UP): 0:(390.74316,254.11124)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(446.0,1764.0)
+:Sending Touch (ACTION_UP): 0:(446.7194,1780.3688)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1052.0,988.0)
+:Sending Touch (ACTION_UP): 0:(1053.1332,999.8991)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(745.0,1733.0)
+:Sending Touch (ACTION_UP): 0:(752.94604,1743.3745)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(745.0,501.0)
+:Sending Touch (ACTION_UP): 0:(744.48096,493.86523)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(307.0,1016.0)
+:Sending Touch (ACTION_UP): 0:(305.61743,1009.51166)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { cmp=com.android.systemui/com.flyme.systemui.recents.RecentsEmptyActivity } in package com.android.systemui
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(815.0,521.0)
+:Sending Touch (ACTION_UP): 0:(809.108,517.7046)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(734.0,1728.0)
+:Sending Touch (ACTION_UP): 0:(738.4802,1720.4346)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1058.0,1013.0)
+:Sending Touch (ACTION_UP): 0:(1048.1802,1005.87146)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(189.0,790.0)
+:Sending Touch (ACTION_UP): 0:(179.97919,792.32983)
+Sleeping for 150 milliseconds
+    // activityResuming(com.tencent.mm)
+    // Rejecting resume of package com.tencent.mm
+:Sending Touch (ACTION_DOWN): 0:(1047.0,500.0)
+:Sending Touch (ACTION_UP): 0:(1038.7408,501.8393)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,1827.0)
+:Sending Touch (ACTION_UP): 0:(154.85141,1823.2194)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(149.0,260.0)
+:Sending Touch (ACTION_UP): 0:(167.94617,254.01775)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(762.0,1761.0)
+:Sending Touch (ACTION_UP): 0:(752.96265,1746.8967)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(164.15482,1685.5292)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(778.0,1366.0)
+:Sending Touch (ACTION_UP): 0:(791.4087,1373.8383)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(990.0,99.0)
+:Sending Touch (ACTION_UP): 0:(989.2107,88.40233)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(584.0,45.0)
+:Sending Touch (ACTION_UP): 0:(597.60944,36.210484)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.meizu.flyme.launcher/.Launcher } in package com.meizu.flyme.launcher
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(415.0,794.0)
+:Sending Touch (ACTION_UP): 0:(429.1682,794.1539)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(566.0,726.0)
+:Sending Touch (ACTION_UP): 0:(576.28705,712.22943)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(655.0,118.0)
+    //[calendar_time:2019-06-17 23:22:30.844  system_uptime:85511291]
+    // Sending event #600
+:Sending Touch (ACTION_UP): 0:(657.8088,119.40854)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(38.0,88.0)
+:Sending Touch (ACTION_UP): 0:(27.98912,90.81735)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { cmp=com.android.systemui/com.flyme.systemui.recents.RecentsEmptyActivity } in package com.android.systemui
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(878.0,1181.0)
+:Sending Touch (ACTION_UP): 0:(862.4118,1166.0508)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(25.0,355.0)
+:Sending Touch (ACTION_UP): 0:(14.012871,351.25067)
+    // activityResuming(com.jifen.qukan)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(921.0,769.0)
+:Sending Touch (ACTION_UP): 0:(928.0872,766.3874)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(483.0,307.0)
+:Sending Touch (ACTION_UP): 0:(472.80948,303.86465)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(652.0,526.0)
+:Sending Touch (ACTION_UP): 0:(652.3864,528.17224)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { cmp=com.android.systemui/com.flyme.systemui.recents.RecentsEmptyActivity } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(403.0,1516.0)
+:Sending Touch (ACTION_UP): 0:(388.7788,1517.5371)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(458.0,516.0)
+:Sending Touch (ACTION_MOVE): 0:(453.3956,514.3703)
+:Sending Touch (ACTION_MOVE): 0:(441.5771,512.37)
+:Sending Touch (ACTION_MOVE): 0:(433.9381,512.24994)
+:Sending Touch (ACTION_MOVE): 0:(420.96808,510.7155)
+:Sending Touch (ACTION_MOVE): 0:(411.3199,508.85236)
+:Sending Touch (ACTION_MOVE): 0:(399.87256,508.81732)
+:Sending Touch (ACTION_MOVE): 0:(389.8767,507.79657)
+:Sending Touch (ACTION_MOVE): 0:(389.6183,506.14047)
+:Sending Touch (ACTION_UP): 0:(377.91992,505.19833)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(192.0,1557.0)
+:Sending Touch (ACTION_UP): 0:(196.28757,1553.2798)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(471.0,1708.0)
+:Sending Touch (ACTION_UP): 0:(466.2785,1711.1606)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(822.0,45.0)
+:Sending Touch (ACTION_UP): 0:(819.1584,44.39051)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(1030.0,1371.0)
+:Sending Touch (ACTION_UP): 0:(1019.4109,1371.252)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(86.0,38.0)
+:Sending Touch (ACTION_UP): 0:(85.723526,35.50829)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(943.0,772.0)
+:Sending Touch (ACTION_UP): 0:(944.59595,772.59705)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(166.0,351.0)
+:Sending Touch (ACTION_UP): 0:(170.61375,351.02197)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(289.0,866.0)
+:Sending Touch (ACTION_UP): 0:(279.37692,869.1861)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(460.0,827.0)
+:Sending Touch (ACTION_MOVE): 0:(463.93588,821.83466)
+:Sending Touch (ACTION_MOVE): 0:(479.5675,819.49)
+:Sending Touch (ACTION_MOVE): 0:(483.20673,813.47064)
+:Sending Touch (ACTION_MOVE): 0:(496.44022,808.96265)
+:Sending Touch (ACTION_MOVE): 0:(510.77704,808.4189)
+:Sending Touch (ACTION_UP): 0:(524.57,802.598)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(860.0,846.0)
+:Sending Touch (ACTION_UP): 0:(861.277,829.8068)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(674.0,247.0)
+:Sending Touch (ACTION_UP): 0:(664.4255,243.09991)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(954.0,824.0)
+:Sending Touch (ACTION_UP): 0:(939.725,822.6407)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(900.0,66.0)
+:Sending Touch (ACTION_UP): 0:(897.666,51.53839)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(385.0,600.0)
+:Sending Touch (ACTION_UP): 0:(383.4167,596.93396)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(187.0,875.0)
+:Sending Touch (ACTION_UP): 0:(205.19531,868.18536)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(253.0,1390.0)
+:Sending Touch (ACTION_UP): 0:(250.3636,1400.6455)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(216.0,1295.0)
+:Sending Touch (ACTION_UP): 0:(207.11499,1295.3771)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(769.0,538.0)
+:Sending Touch (ACTION_UP): 0:(769.0381,539.53784)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(875.0,776.0)
+:Sending Touch (ACTION_UP): 0:(878.08484,773.7058)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(8.0,738.0)
+:Sending Touch (ACTION_UP): 0:(2.964416,728.6436)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(286.0,1548.0)
+:Sending Touch (ACTION_UP): 0:(288.19748,1535.0514)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(337.0,162.0)
+:Sending Touch (ACTION_UP): 0:(337.61545,165.7952)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,116.0)
+:Sending Touch (ACTION_UP): 0:(648.572,117.43159)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(618.0,570.0)
+:Sending Touch (ACTION_UP): 0:(623.83954,571.1002)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(552.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(550.9349,1695.766)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(493.0,1797.0)
+:Sending Touch (ACTION_UP): 0:(493.45627,1796.7837)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(927.0,915.0)
+:Sending Touch (ACTION_UP): 0:(937.64594,918.02673)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(722.0,1523.0)
+:Sending Touch (ACTION_UP): 0:(724.5307,1511.6051)
+    //[calendar_time:2019-06-17 23:22:39.401  system_uptime:85519848]
+    // Sending event #700
+Sleeping for 150 milliseconds
+    //[calendar_time:2019-06-17 23:22:39.573  system_uptime:85520020]
+    // Sending event #700
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(685.0,291.0)
+:Sending Touch (ACTION_MOVE): 0:(681.65326,293.2347)
+:Sending Touch (ACTION_MOVE): 0:(670.9897,302.42297)
+:Sending Touch (ACTION_MOVE): 0:(656.20905,316.25272)
+:Sending Touch (ACTION_MOVE): 0:(654.0629,330.2041)
+:Sending Touch (ACTION_MOVE): 0:(653.292,341.354)
+:Sending Touch (ACTION_MOVE): 0:(640.2358,346.03745)
+:Sending Touch (ACTION_MOVE): 0:(622.23193,358.7388)
+:Sending Touch (ACTION_MOVE): 0:(606.70233,365.88483)
+:Sending Touch (ACTION_UP): 0:(593.7629,371.70978)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(531.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(525.2152,1213.5974)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(199.0,902.0)
+:Sending Touch (ACTION_UP): 0:(201.35114,913.18463)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(870.0,1240.0)
+:Sending Touch (ACTION_UP): 0:(876.98346,1232.9177)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(410.0,79.0)
+:Sending Touch (ACTION_UP): 0:(407.48746,62.27227)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(39.0,29.0)
+:Sending Touch (ACTION_UP): 0:(38.99568,25.412512)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(781.0,664.0)
+:Sending Touch (ACTION_UP): 0:(769.1853,662.0491)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(510.0,599.0)
+:Sending Touch (ACTION_UP): 0:(524.95154,594.2489)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1062.0,1509.0)
+:Sending Touch (ACTION_UP): 0:(1073.1814,1518.5431)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(596.0,1495.0)
+:Sending Touch (ACTION_UP): 0:(596.2025,1492.5892)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(868.0,1829.0)
+:Sending Touch (ACTION_UP): 0:(865.69916,1840.979)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(113.0,405.0)
+:Sending Touch (ACTION_UP): 0:(116.02181,404.857)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(849.0,205.0)
+:Sending Touch (ACTION_UP): 0:(827.929,212.25075)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(246.0,1101.0)
+:Sending Touch (ACTION_UP): 0:(248.32155,1116.9172)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(199.0,1745.0)
+:Sending Touch (ACTION_UP): 0:(203.4009,1730.4126)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(98.0,1139.0)
+:Sending Touch (ACTION_UP): 0:(93.69171,1135.1517)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(553.0,862.0)
+:Sending Touch (ACTION_UP): 0:(549.6998,866.46765)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(269.0,1845.0)
+:Sending Touch (ACTION_UP): 0:(270.7259,1834.7485)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(245.0,543.0)
+:Sending Touch (ACTION_UP): 0:(244.95929,532.57404)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(496.0,1619.0)
+:Sending Touch (ACTION_UP): 0:(503.40887,1623.5088)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(735.0,1224.0)
+:Sending Touch (ACTION_UP): 0:(736.30865,1224.5356)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(755.0,643.0)
+:Sending Touch (ACTION_UP): 0:(755.5861,646.8714)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(962.0,760.0)
+:Sending Touch (ACTION_MOVE): 0:(939.97595,757.956)
+:Sending Touch (ACTION_MOVE): 0:(927.835,739.646)
+:Sending Touch (ACTION_MOVE): 0:(921.0212,726.3121)
+:Sending Touch (ACTION_MOVE): 0:(916.2412,721.3735)
+:Sending Touch (ACTION_MOVE): 0:(897.91077,721.0521)
+:Sending Touch (ACTION_UP): 0:(888.0231,707.25476)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(914.0,266.0)
+:Sending Touch (ACTION_UP): 0:(898.6452,264.3074)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(537.0,1565.0)
+:Sending Touch (ACTION_UP): 0:(527.3429,1569.195)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(466.0,433.0)
+:Sending Touch (ACTION_UP): 0:(463.96884,430.61154)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(503.0,132.0)
+:Sending Touch (ACTION_UP): 0:(505.4055,136.66391)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(498.0,234.0)
+:Sending Touch (ACTION_UP): 0:(481.1385,233.98076)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(471.0,815.0)
+:Sending Touch (ACTION_UP): 0:(474.66818,797.74493)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(434.0,1134.0)
+:Sending Touch (ACTION_UP): 0:(433.07544,1125.8745)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,576.0)
+:Sending Touch (ACTION_UP): 0:(154.72137,572.823)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+    //[calendar_time:2019-06-17 23:22:45.853  system_uptime:85526301]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(48.0,1877.0)
+:Sending Touch (ACTION_UP): 0:(53.82073,1876.3617)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(348.0,1059.0)
+:Sending Touch (ACTION_UP): 0:(348.09604,1058.5906)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(427.0,62.0)
+:Sending Touch (ACTION_UP): 0:(446.90414,51.797775)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(481.0,1883.0)
+:Sending Touch (ACTION_UP): 0:(494.07996,1893.3835)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(677.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(677.1496,1409.8441)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(560.0,685.0)
+:Sending Touch (ACTION_UP): 0:(578.9931,679.1836)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1066.0,401.0)
+:Sending Touch (ACTION_UP): 0:(1066.351,401.62033)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(528.0,1325.0)
+:Sending Touch (ACTION_UP): 0:(530.9262,1324.6221)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(202.0,1603.0)
+:Sending Touch (ACTION_UP): 0:(191.50706,1593.5592)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(10.0,1287.0)
+:Sending Touch (ACTION_MOVE): 0:(11.601964,1286.4086)
+:Sending Touch (ACTION_MOVE): 0:(12.361457,1280.1362)
+:Sending Touch (ACTION_MOVE): 0:(13.069539,1266.7946)
+:Sending Touch (ACTION_MOVE): 0:(14.588365,1260.9062)
+:Sending Touch (ACTION_UP): 0:(15.46669,1255.3335)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1065.0,55.0)
+:Sending Touch (ACTION_UP): 0:(1067.9688,35.07116)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(214.0,1111.0)
+:Sending Touch (ACTION_UP): 0:(216.4401,1110.6688)
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.userhome.activity.UserHomeActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(262.0,820.0)
+:Sending Touch (ACTION_UP): 0:(261.75174,818.10333)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(826.0,447.0)
+:Sending Touch (ACTION_UP): 0:(810.4386,445.42392)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(678.0,1759.0)
+:Sending Touch (ACTION_UP): 0:(679.83575,1762.9725)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(716.0,1464.0)
+:Sending Touch (ACTION_UP): 0:(724.18427,1456.337)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(855.0,417.0)
+:Sending Touch (ACTION_UP): 0:(862.82544,416.63882)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1483.0)
+:Sending Touch (ACTION_UP): 0:(1027.7092,1504.1211)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,1043.0)
+:Sending Touch (ACTION_UP): 0:(236.44035,1052.7135)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(515.0,31.0)
+:Sending Touch (ACTION_UP): 0:(504.29617,40.16531)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1045.0,484.0)
+:Sending Touch (ACTION_UP): 0:(1040.8638,471.91534)
+    // Allowing start of Intent { cmp=com.jifen.qukan/.userhome.activity.FansAndFollowActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(627.0,1575.0)
+:Sending Touch (ACTION_UP): 0:(627.86285,1567.961)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(692.0,1546.0)
+:Sending Touch (ACTION_UP): 0:(692.83215,1545.8523)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(167.0,1466.0)
+:Sending Touch (ACTION_UP): 0:(164.21606,1468.3231)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.userhome.activity.UserHomeActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(892.0,851.0)
+:Sending Touch (ACTION_UP): 0:(880.3916,852.9806)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(436.0,1841.0)
+:Sending Touch (ACTION_UP): 0:(434.55524,1852.4945)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(403.0,1095.0)
+:Sending Touch (ACTION_UP): 0:(402.29153,1092.5437)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(696.0,1654.0)
+:Sending Touch (ACTION_UP): 0:(680.33514,1645.929)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(22.0,690.0)
+:Sending Touch (ACTION_UP): 0:(29.837753,690.5979)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(313.0,1661.0)
+:Sending Touch (ACTION_UP): 0:(317.98413,1671.024)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,90.0)
+:Sending Touch (ACTION_UP): 0:(170.45625,91.62498)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(968.0,1233.0)
+:Sending Touch (ACTION_UP): 0:(973.2133,1233.1824)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(883.0,1019.0)
+:Sending Touch (ACTION_UP): 0:(882.23846,1020.92487)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(891.0,771.0)
+:Sending Touch (ACTION_UP): 0:(887.633,770.8755)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(310.0,81.0)
+:Sending Touch (ACTION_UP): 0:(304.8539,89.23479)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(3.0,900.0)
+:Sending Touch (ACTION_UP): 0:(4.911567,906.985)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(414.0,552.0)
+:Sending Touch (ACTION_UP): 0:(421.13992,543.31085)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,1667.0)
+:Sending Touch (ACTION_MOVE): 0:(485.16864,1654.2427)
+:Sending Touch (ACTION_MOVE): 0:(488.62158,1640.4753)
+:Sending Touch (ACTION_MOVE): 0:(492.92627,1627.2559)
+:Sending Touch (ACTION_MOVE): 0:(497.66016,1621.3284)
+:Sending Touch (ACTION_MOVE): 0:(498.086,1617.7692)
+:Sending Touch (ACTION_MOVE): 0:(498.79465,1613.235)
+:Sending Touch (ACTION_MOVE): 0:(501.6996,1605.9675)
+    //[calendar_time:2019-06-17 23:22:54.151  system_uptime:85534599]
+    // Sending event #900
+:Sending Touch (ACTION_UP): 0:(507.0657,1602.6228)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(745.0,551.0)
+:Sending Touch (ACTION_UP): 0:(734.4944,548.7897)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(876.0,784.0)
+:Sending Touch (ACTION_UP): 0:(881.4189,784.67676)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(778.0,544.0)
+:Sending Touch (ACTION_UP): 0:(778.3296,547.55475)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(382.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(381.76566,1162.7957)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(339.0,1475.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(330.77588,1479.7944)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.content.newsdetail.news.NewsDetailNewActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(171.0,290.0)
+:Sending Touch (ACTION_UP): 0:(169.6912,292.11606)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(280.0,1030.0)
+:Sending Touch (ACTION_UP): 0:(278.69284,1034.8802)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(66.0,1052.0)
+:Sending Touch (ACTION_UP): 0:(66.49285,1049.0823)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(852.0,394.0)
+:Sending Touch (ACTION_UP): 0:(838.36127,377.30518)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(750.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(744.4821,1278.0675)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(1029.0,915.0)
+:Sending Touch (ACTION_UP): 0:(1030.2229,910.08203)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1000.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(1006.1574,1299.7473)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,1759.0)
+:Sending Touch (ACTION_UP): 0:(535.496,1768.3846)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(12.0,525.0)
+:Sending Touch (ACTION_UP): 0:(27.892235,522.75824)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(791.0,1550.0)
+:Sending Touch (ACTION_UP): 0:(784.6255,1550.4962)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,1353.0)
+:Sending Touch (ACTION_UP): 0:(591.8386,1348.9924)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(66.0,45.0)
+:Sending Touch (ACTION_UP): 0:(80.975876,29.806442)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(814.0,761.0)
+:Sending Touch (ACTION_UP): 0:(792.6731,761.09827)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(511.0,1236.0)
+:Sending Touch (ACTION_UP): 0:(516.26337,1242.8918)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(673.0,1877.0)
+:Sending Touch (ACTION_UP): 0:(666.8855,1872.3303)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(806.0,225.0)
+:Sending Touch (ACTION_UP): 0:(818.6505,241.84506)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(183.0,624.0)
+:Sending Touch (ACTION_UP): 0:(182.89812,617.7069)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(924.0,1083.0)
+:Sending Touch (ACTION_UP): 0:(944.5119,1077.0333)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/com.jifen.qkbase.web.WebActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(138.0,274.0)
+:Sending Touch (ACTION_UP): 0:(149.40056,276.0879)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(366.0,1308.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_UP): 0:(371.35843,1304.8346)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(779.0,1783.0)
+:Sending Touch (ACTION_UP): 0:(781.69073,1783.0874)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,530.0)
+:Sending Touch (ACTION_UP): 0:(408.25674,543.3849)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(228.0,1244.0)
+    //[calendar_time:2019-06-17 23:23:00.842  system_uptime:85541290]
+    // Sending event #1000
+:Sending Touch (ACTION_UP): 0:(239.63486,1241.1433)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(715.0,917.0)
+:Sending Touch (ACTION_UP): 0:(719.20074,913.601)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(833.0,285.0)
+:Sending Touch (ACTION_UP): 0:(833.6728,281.96274)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(472.0,995.0)
+:Sending Touch (ACTION_UP): 0:(461.8333,984.08386)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(180.0,1169.0)
+:Sending Touch (ACTION_MOVE): 0:(178.1684,1160.6732)
+:Sending Touch (ACTION_MOVE): 0:(176.50484,1151.1346)
+:Sending Touch (ACTION_MOVE): 0:(175.41396,1146.3772)
+:Sending Touch (ACTION_MOVE): 0:(172.3227,1145.2438)
+:Sending Touch (ACTION_MOVE): 0:(171.21417,1142.9932)
+:Sending Touch (ACTION_UP): 0:(169.07303,1137.8129)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(229.0,699.0)
+:Sending Touch (ACTION_UP): 0:(233.7008,699.0315)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(35.0,526.0)
+:Sending Touch (ACTION_UP): 0:(38.709583,533.73517)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(727.0,627.0)
+:Sending Touch (ACTION_UP): 0:(708.4704,620.38745)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(292.0,1324.0)
+:Sending Touch (ACTION_UP): 0:(298.0777,1343.6948)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(278.0,637.0)
+:Sending Touch (ACTION_UP): 0:(280.0706,639.34406)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(462.0,1610.0)
+:Sending Touch (ACTION_UP): 0:(462.08017,1623.9062)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,947.0)
+:Sending Touch (ACTION_UP): 0:(262.96402,957.70734)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(149.0,1157.0)
+:Sending Touch (ACTION_UP): 0:(143.54025,1160.2755)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(810.0,91.0)
+:Sending Touch (ACTION_UP): 0:(811.44635,86.72951)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(274.0,391.0)
+:Sending Touch (ACTION_UP): 0:(273.99985,392.0897)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(215.0,81.0)
+:Sending Touch (ACTION_UP): 0:(216.33191,74.380424)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1076.0,368.0)
+:Sending Touch (ACTION_UP): 0:(1076.3542,348.3409)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(779.0,649.0)
+:Sending Touch (ACTION_UP): 0:(762.8051,637.936)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(42.0,610.0)
+:Sending Touch (ACTION_UP): 0:(42.023174,609.19025)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(353.0,866.0)
+:Sending Touch (ACTION_UP): 0:(349.65628,852.4811)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(8.0,466.0)
+:Sending Touch (ACTION_UP): 0:(17.530823,458.66177)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(543.0,1553.0)
+:Sending Touch (ACTION_UP): 0:(532.0256,1553.5765)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(434.0,487.0)
+:Sending Touch (ACTION_UP): 0:(434.88397,486.11917)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(900.0,888.0)
+:Sending Touch (ACTION_UP): 0:(897.7958,876.71936)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/.share.ui.ShareActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(655.0,452.0)
+:Sending Touch (ACTION_UP): 0:(653.1163,452.0574)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(895.0,1819.0)
+:Sending Touch (ACTION_UP): 0:(896.97296,1820.5187)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1028.0,1883.0)
+:Sending Touch (ACTION_UP): 0:(1023.3752,1869.4911)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(21.0,1677.0)
+:Sending Touch (ACTION_UP): 0:(23.88198,1675.2152)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(672.0,240.0)
+:Sending Touch (ACTION_UP): 0:(687.03754,235.25925)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/com.tencent.connect.common.AssistActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(681.0,1750.0)
+:Sending Touch (ACTION_UP): 0:(676.4758,1768.1002)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=mqqapi://share/to_fri?src_type=app&version=1&file_type=news&file_data=L3N0b3JhZ2UvZW11bGF0ZWQvMC9xay9zaGFyZS8yMmIzYzQ3MTZmOWJmOWE3M2Y1NjZkYjI2MWJiNjBlMC5qcGc=&title=5Zad5a6M54+N54+g5aW26Iy277yM5aWz5a2p6IOD6YeM5Ye6546w55m+5L2Z6aKX4oCc54+N54+g4oCd77yf5aW26Iy26L+Y6IO9Li4u&description=5biC6Z2i5LiK55qE6aWu5ZOB4oCc55Cz55CF5ruh55uu4oCd77yM6ICM4oCc54+N54+g5aW26Iy24oCd5YiZ5piv5b6I5aSa5bm06L275aa557q455qE6ZKf54ix5L2z5ZOB44CC5LuO4oCc54+N54+g5aW26Iy24oCd55qE5a2X6Z2i5oSP5oCd5p2l55yL77yM5peg6Z2e5piv4oCc54+N54+g4oCdK+WltuiMtueahOaQremFjee7hOWQiO+8jOWvueS6juaJgOiwk+eahOePjeePoOadpeivtO+8jOW4gumdouS4iuWtmOWcqOedgOS4gOS6m+WNseiogOiAuOWQrOeahOiogOiuuu+8jOS8oOiogOensOKAnOePjeePoOWltuiMtuW9kw==&share_id=1105435960&url=aHR0cDovL25ldy4zcXR0LmNuLzFiYWloTA==&app_name=6Laj5aS05p2h&req_type=MQ==&cflag=Mg== cmp=com.tencent.mobileqq/.activity.JumpActivity } in package com.tencent.mobileqq
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(967.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(975.4901,1172.7584)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(647.0,412.0)
+:Sending Touch (ACTION_UP): 0:(650.84064,414.65237)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(568.0,771.0)
+:Sending Touch (ACTION_UP): 0:(587.85236,760.36584)
+Sleeping for 150 milliseconds
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_DOWN): 0:(661.0,1073.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(660.55853,1073.4142)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(648.0,1276.0)
+:Sending Touch (ACTION_UP): 0:(647.8597,1281.0457)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(260.0,754.0)
+:Sending Touch (ACTION_UP): 0:(252.62732,756.7491)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(977.0,1119.0)
+:Sending Touch (ACTION_UP): 0:(978.45105,1109.7822)
+    //[calendar_time:2019-06-17 23:23:09.579  system_uptime:85550027]
+    // Sending event #1100
+Sleeping for 150 milliseconds
+    //[calendar_time:2019-06-17 23:23:09.731  system_uptime:85550178]
+    // Sending event #1100
+:Sending Touch (ACTION_DOWN): 0:(1059.0,1154.0)
+:Sending Touch (ACTION_UP): 0:(1059.054,1161.9413)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(91.0,1394.0)
+:Sending Touch (ACTION_UP): 0:(87.736855,1405.2341)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(90.0,304.0)
+:Sending Touch (ACTION_UP): 0:(84.52369,303.87552)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(727.0,264.0)
+:Sending Touch (ACTION_UP): 0:(725.2714,278.2777)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(364.0,954.0)
+:Sending Touch (ACTION_UP): 0:(381.02594,966.671)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(42.0,1877.0)
+:Sending Touch (ACTION_UP): 0:(48.119606,1877.3776)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,1124.0)
+    // activityResuming(com.jifen.qukan)
+:Sending Touch (ACTION_UP): 0:(358.15466,1120.5536)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(209.0,552.0)
+:Sending Touch (ACTION_UP): 0:(209.2469,551.1406)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(389.0,1814.0)
+:Sending Touch (ACTION_UP): 0:(395.73236,1819.0405)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1026.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(1028.0968,1201.9841)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(437.0,93.0)
+:Sending Touch (ACTION_UP): 0:(424.42596,89.11079)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(834.0,67.0)
+:Sending Touch (ACTION_UP): 0:(842.6922,65.512)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1006.0,860.0)
+:Sending Touch (ACTION_UP): 0:(995.7677,859.02997)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(923.0,987.0)
+:Sending Touch (ACTION_UP): 0:(925.7404,1001.32635)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(462.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(472.10394,1359.8748)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(586.0,1366.0)
+:Sending Touch (ACTION_UP): 0:(586.05505,1370.4698)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(315.0,1492.0)
+:Sending Touch (ACTION_UP): 0:(297.83972,1489.0504)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(969.0,163.0)
+:Sending Touch (ACTION_UP): 0:(965.96606,159.91191)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(1067.2844,1317.8374)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(538.0,1529.0)
+:Sending Touch (ACTION_UP): 0:(547.3142,1525.3474)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(823.0,462.0)
+:Sending Touch (ACTION_UP): 0:(831.9929,467.14456)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(832.0,1835.0)
+:Sending Touch (ACTION_UP): 0:(849.0304,1844.0175)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(813.0,1245.0)
+:Sending Touch (ACTION_UP): 0:(813.71173,1243.2894)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/com.jifen.qkbase.web.WebActivity } in package com.jifen.qukan
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(619.0,1626.0)
+:Sending Touch (ACTION_UP): 0:(626.39954,1628.3243)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(395.0,1916.0)
+:Sending Touch (ACTION_UP): 0:(391.6366,1920.0)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(662.0,353.0)
+:Sending Touch (ACTION_UP): 0:(659.2026,357.35907)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(479.0,1263.0)
+:Sending Touch (ACTION_UP): 0:(479.44513,1275.5748)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1061.0,1143.0)
+:Sending Touch (ACTION_UP): 0:(1064.2112,1136.5125)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1031.0,405.0)
+:Sending Touch (ACTION_UP): 0:(1033.5486,398.48627)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.UsbSettings } in package com.android.settings
+    // Injection Failed
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.UsbSettings } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(117.0,538.0)
+:Sending Touch (ACTION_UP): 0:(126.985016,538.9452)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,1357.0)
+:Sending Touch (ACTION_UP): 0:(122.1418,1358.8264)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(380.0,749.0)
+:Sending Touch (ACTION_UP): 0:(379.8135,758.94086)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(919.0,1014.0)
+:Sending Touch (ACTION_UP): 0:(919.09503,1007.6481)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(965.0,1853.0)
+:Sending Touch (ACTION_UP): 0:(968.73785,1862.0848)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(76.0,1833.0)
+:Sending Touch (ACTION_UP): 0:(80.08184,1844.5604)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1032.0,724.0)
+:Sending Touch (ACTION_UP): 0:(1032.2317,716.7003)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(888.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(894.0826,1419.4624)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+    //[calendar_time:2019-06-17 23:23:18.250  system_uptime:85558698]
+    // Sending event #1200
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(611.0,202.0)
+:Sending Touch (ACTION_UP): 0:(608.6673,201.98036)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(725.0,269.0)
+:Sending Touch (ACTION_UP): 0:(719.59766,267.99936)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(620.0,985.0)
+:Sending Touch (ACTION_UP): 0:(621.7336,973.2372)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(204.0,911.0)
+:Sending Touch (ACTION_UP): 0:(208.41492,894.4076)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(288.0,538.0)
+:Sending Touch (ACTION_UP): 0:(301.58835,543.3522)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(277.0,362.0)
+:Sending Touch (ACTION_UP): 0:(268.2121,359.28772)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(235.0,1267.0)
+:Sending Touch (ACTION_UP): 0:(229.3267,1268.8945)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(841.0,1571.0)
+:Sending Touch (ACTION_UP): 0:(820.1392,1551.9899)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(110.0,9.0)
+:Sending Touch (ACTION_UP): 0:(90.85284,8.668629)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(11.0,772.0)
+:Sending Touch (ACTION_UP): 0:(12.064001,769.04083)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(164.0,464.0)
+:Sending Touch (ACTION_UP): 0:(166.15291,468.71762)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,200.0)
+:Sending Touch (ACTION_UP): 0:(354.0836,208.47487)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(576.0,446.0)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(593.3743,449.2707)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(143.0,102.0)
+:Sending Touch (ACTION_UP): 0:(140.85936,101.123215)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(497.0,660.0)
+:Sending Touch (ACTION_UP): 0:(496.9155,661.5374)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(654.0,72.0)
+:Sending Touch (ACTION_UP): 0:(657.7186,70.365105)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(861.0,1676.0)
+:Sending Touch (ACTION_UP): 0:(866.2243,1680.1984)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(335.0,231.0)
+:Sending Touch (ACTION_UP): 0:(336.51257,225.06694)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(67.0,213.0)
+:Sending Touch (ACTION_UP): 0:(69.84477,203.11366)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(906.0,1333.0)
+:Sending Touch (ACTION_MOVE): 0:(904.9777,1342.6162)
+:Sending Touch (ACTION_MOVE): 0:(901.35156,1351.974)
+:Sending Touch (ACTION_MOVE): 0:(898.93396,1364.5312)
+:Sending Touch (ACTION_MOVE): 0:(896.5425,1374.5573)
+:Sending Touch (ACTION_MOVE): 0:(895.92664,1381.37)
+:Sending Touch (ACTION_MOVE): 0:(895.245,1393.0112)
+:Sending Touch (ACTION_MOVE): 0:(891.5183,1395.6063)
+:Sending Touch (ACTION_MOVE): 0:(887.8698,1396.3354)
+:Sending Touch (ACTION_UP): 0:(885.4726,1408.6987)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { cmp=com.jifen.qukan/com.jifen.qkbase.web.WebActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(410.0,836.0)
+:Sending Touch (ACTION_MOVE): 0:(414.52173,844.57947)
+:Sending Touch (ACTION_MOVE): 0:(415.9975,857.3777)
+:Sending Touch (ACTION_UP): 0:(417.4433,869.3862)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,774.0)
+:Sending Touch (ACTION_UP): 0:(678.7924,772.63727)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(573.0,1114.0)
+:Sending Touch (ACTION_UP): 0:(571.32623,1113.9711)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(670.0,1538.0)
+:Sending Touch (ACTION_UP): 0:(661.2255,1547.375)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(26.0,367.0)
+:Sending Touch (ACTION_UP): 0:(22.204958,359.99197)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(35.0,1597.0)
+:Sending Touch (ACTION_UP): 0:(33.638165,1596.2909)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,1162.0)
+:Sending Touch (ACTION_UP): 0:(637.401,1170.1746)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,26.0)
+:Sending Touch (ACTION_UP): 0:(364.02847,29.978819)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(718.0,405.0)
+:Sending Touch (ACTION_UP): 0:(718.6511,413.3137)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.DevelopmentSettings } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(1054.0,1545.0)
+:Sending Touch (ACTION_UP): 0:(1063.1753,1535.626)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(913.0,1919.0)
+:Sending Touch (ACTION_UP): 0:(916.59717,1914.4495)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(747.0,514.0)
+:Sending Touch (ACTION_UP): 0:(744.11395,521.13763)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(93.0,588.0)
+:Sending Touch (ACTION_UP): 0:(87.973755,587.71606)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(577.0,718.0)
+:Sending Touch (ACTION_MOVE): 0:(572.0167,709.9719)
+:Sending Touch (ACTION_MOVE): 0:(564.79364,709.569)
+:Sending Touch (ACTION_MOVE): 0:(559.6944,702.81244)
+:Sending Touch (ACTION_UP): 0:(550.38586,699.26514)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(666.0,1136.0)
+:Sending Touch (ACTION_UP): 0:(666.54034,1127.7262)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1005.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(997.6524,1402.5806)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(312.0,1495.0)
+:Sending Touch (ACTION_UP): 0:(304.06198,1482.58)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(631.0,750.0)
+:Sending Touch (ACTION_UP): 0:(630.1101,747.5904)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,1546.0)
+:Sending Touch (ACTION_UP): 0:(253.87224,1540.435)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(843.0,1101.0)
+:Sending Touch (ACTION_UP): 0:(847.88544,1089.3435)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(273.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(267.155,1228.518)
+    //[calendar_time:2019-06-17 23:23:26.703  system_uptime:85567151]
+    // Sending event #1300
+Sleeping for 150 milliseconds
+    //[calendar_time:2019-06-17 23:23:26.855  system_uptime:85567302]
+    // Sending event #1300
+:Sending Touch (ACTION_DOWN): 0:(373.0,1539.0)
+:Sending Touch (ACTION_UP): 0:(365.2045,1535.5463)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(492.0,113.0)
+:Sending Touch (ACTION_UP): 0:(491.76694,101.20685)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(136.0,1085.0)
+:Sending Touch (ACTION_UP): 0:(130.75633,1077.669)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(589.0,1295.0)
+:Sending Touch (ACTION_UP): 0:(592.50415,1276.8165)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(546.0,1690.0)
+:Sending Touch (ACTION_UP): 0:(545.6588,1706.777)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(793.0,1457.0)
+:Sending Touch (ACTION_UP): 0:(790.9151,1459.9242)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(399.0,1645.0)
+:Sending Touch (ACTION_UP): 0:(389.33032,1630.8438)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(642.0,1376.0)
+:Sending Touch (ACTION_UP): 0:(637.6186,1374.654)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(987.0,1314.0)
+:Sending Touch (ACTION_UP): 0:(988.8675,1313.295)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.DevelopmentSettings } in package com.android.settings
+    // Rejecting start of Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.jm.android.jumei cmp=com.android.settings/.applications.InstalledAppDetails } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(623.0,165.0)
+:Sending Touch (ACTION_UP): 0:(624.3469,165.00282)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(537.0,1638.0)
+:Sending Touch (ACTION_UP): 0:(548.934,1638.1321)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,1373.0)
+:Sending Touch (ACTION_UP): 0:(366.50946,1389.89)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(682.0,279.0)
+:Sending Touch (ACTION_UP): 0:(683.16064,273.21915)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(287.0,785.0)
+:Sending Touch (ACTION_UP): 0:(304.3391,799.3673)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(354.0,916.0)
+:Sending Touch (ACTION_UP): 0:(339.93808,906.28064)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(487.0,1636.0)
+:Sending Touch (ACTION_UP): 0:(484.68564,1642.5406)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(806.0,610.0)
+:Sending Touch (ACTION_UP): 0:(786.7215,605.4525)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1052.0,172.0)
+:Sending Touch (ACTION_UP): 0:(1058.3729,168.24522)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(326.0,271.0)
+:Sending Touch (ACTION_MOVE): 0:(321.96686,277.546)
+:Sending Touch (ACTION_MOVE): 0:(319.2676,282.27716)
+:Sending Touch (ACTION_MOVE): 0:(318.03513,288.4804)
+:Sending Touch (ACTION_MOVE): 0:(314.17776,297.742)
+:Sending Touch (ACTION_MOVE): 0:(312.1934,306.3248)
+:Sending Touch (ACTION_MOVE): 0:(308.49426,312.79834)
+:Sending Touch (ACTION_MOVE): 0:(308.16364,313.6757)
+:Sending Touch (ACTION_MOVE): 0:(304.57553,318.82825)
+:Sending Touch (ACTION_UP): 0:(300.7881,321.89557)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(763.0,1744.0)
+:Sending Touch (ACTION_UP): 0:(775.20905,1747.7384)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(240.0,1530.0)
+:Sending Touch (ACTION_UP): 0:(236.52269,1520.7777)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(623.0,1533.0)
+:Sending Touch (ACTION_UP): 0:(637.3442,1543.3611)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(370.0,1390.0)
+:Sending Touch (ACTION_UP): 0:(352.49548,1386.2103)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(366.0,546.0)
+:Sending Touch (ACTION_UP): 0:(367.44354,553.5157)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(121.0,481.0)
+:Sending Touch (ACTION_UP): 0:(106.20651,472.6976)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(177.0,142.0)
+:Sending Touch (ACTION_UP): 0:(171.89517,134.23846)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,1011.0)
+:Sending Touch (ACTION_UP): 0:(681.99835,1023.49786)
+Sleeping for 150 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(856.0,1162.0)
+:Sending Touch (ACTION_UP): 0:(857.0231,1148.0103)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1399.0)
+:Sending Touch (ACTION_UP): 0:(1044.8728,1401.2739)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    //[calendar_time:2019-06-17 23:23:33.065  system_uptime:85573513]
+    // Sending event #1400
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1040.0,498.0)
+:Sending Touch (ACTION_UP): 0:(1038.9071,499.21692)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,1321.0)
+:Sending Touch (ACTION_UP): 0:(160.26376,1321.1499)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(437.0,454.0)
+:Sending Touch (ACTION_UP): 0:(439.0371,434.7488)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(3.0,1453.0)
+:Sending Touch (ACTION_UP): 0:(0.21245813,1451.8657)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(827.0,573.0)
+:Sending Touch (ACTION_UP): 0:(813.5029,582.0974)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(142.0,915.0)
+:Sending Touch (ACTION_UP): 0:(142.17302,897.31866)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(74.0,1717.0)
+:Sending Touch (ACTION_UP): 0:(69.138596,1724.4681)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { cmp=com.jingdong.app.mall/.open.MessageNotificationActivity } in package com.jingdong.app.mall
+:Sending Touch (ACTION_DOWN): 0:(512.0,203.0)
+:Sending Touch (ACTION_UP): 0:(508.1233,197.60579)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(451.0,842.0)
+:Sending Touch (ACTION_UP): 0:(445.86993,824.7912)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(124.0,1516.0)
+:Sending Touch (ACTION_UP): 0:(121.67163,1509.6455)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(75.0,652.0)
+:Sending Touch (ACTION_UP): 0:(87.36124,638.91876)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(224.0,49.0)
+:Sending Touch (ACTION_UP): 0:(224.78395,64.06781)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(892.0,1472.0)
+:Sending Touch (ACTION_UP): 0:(891.29675,1476.6915)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(969.0,499.0)
+:Sending Touch (ACTION_UP): 0:(984.37286,502.60516)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,1777.0)
+:Sending Touch (ACTION_UP): 0:(343.79636,1782.5654)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(270.0,1303.0)
+:Sending Touch (ACTION_UP): 0:(269.64328,1302.5376)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(74.0,1171.0)
+:Sending Touch (ACTION_UP): 0:(74.00793,1173.1365)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(460.0,1596.0)
+:Sending Touch (ACTION_UP): 0:(465.59283,1582.6699)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1017.0,864.0)
+:Sending Touch (ACTION_MOVE): 0:(1011.4989,864.29034)
+:Sending Touch (ACTION_MOVE): 0:(1011.1626,868.6209)
+:Sending Touch (ACTION_MOVE): 0:(1003.9222,872.3685)
+:Sending Touch (ACTION_MOVE): 0:(995.8758,875.713)
+:Sending Touch (ACTION_MOVE): 0:(979.30896,879.46936)
+:Sending Touch (ACTION_UP): 0:(969.79016,882.1148)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.UsbSettings } in package com.android.settings
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.UsbSettings } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(423.0,1370.0)
+:Sending Touch (ACTION_UP): 0:(416.09518,1367.1787)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1060.0,1669.0)
+:Sending Touch (ACTION_UP): 0:(1045.6111,1656.1154)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,1372.0)
+:Sending Touch (ACTION_UP): 0:(979.2306,1379.4382)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(724.0,1361.0)
+:Sending Touch (ACTION_UP): 0:(723.94135,1372.7839)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(278.0,1250.0)
+:Sending Touch (ACTION_UP): 0:(288.46494,1245.9551)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(62.0,1439.0)
+:Sending Touch (ACTION_UP): 0:(53.781254,1420.9268)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(111.0,960.0)
+:Sending Touch (ACTION_UP): 0:(113.39739,951.5405)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(363.0,1811.0)
+:Sending Touch (ACTION_UP): 0:(360.8805,1822.0554)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(0.0,679.0)
+:Sending Touch (ACTION_UP): 0:(0.27592435,678.9609)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,735.0)
+:Sending Touch (ACTION_UP): 0:(972.43066,741.3053)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1061.0,975.0)
+:Sending Touch (ACTION_UP): 0:(1061.5292,987.53925)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(545.0,1147.0)
+:Sending Touch (ACTION_UP): 0:(545.6187,1153.639)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(122.0,859.0)
+:Sending Touch (ACTION_UP): 0:(123.85263,848.00555)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(513.0,1782.0)
+:Sending Touch (ACTION_UP): 0:(522.5345,1765.1702)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(254.0,771.0)
+:Sending Touch (ACTION_UP): 0:(267.6391,777.8101)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(678.0,184.0)
+:Sending Touch (ACTION_UP): 0:(700.2357,181.70389)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(360.0,1373.0)
+:Sending Touch (ACTION_UP): 0:(348.08954,1374.7902)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(304.0,24.0)
+:Sending Touch (ACTION_UP): 0:(304.00912,26.66405)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(980.0,280.0)
+:Sending Touch (ACTION_MOVE): 0:(961.4099,265.26572)
+:Sending Touch (ACTION_MOVE): 0:(945.8438,248.40652)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(932.96387,230.23236)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(914.8041,224.14268)
+    // Injection Failed
+    //[calendar_time:2019-06-17 23:23:46.730  system_uptime:85587188]
+    // Sending event #1500
+Sleeping for 150 milliseconds
+    //[calendar_time:2019-06-17 23:23:46.891  system_uptime:85587340]
+    // Sending event #1500
+:Sending Touch (ACTION_DOWN): 0:(1010.0,1509.0)
+:Sending Touch (ACTION_UP): 0:(1004.12897,1500.3918)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(819.0,1696.0)
+:Sending Touch (ACTION_UP): 0:(819.95386,1684.4828)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(791.0,1398.0)
+:Sending Touch (ACTION_UP): 0:(790.7373,1393.7937)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(853.0,1269.0)
+:Sending Touch (ACTION_UP): 0:(857.46893,1268.6011)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(665.0,595.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_UP): 0:(657.4547,588.7188)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(617.0,1301.0)
+:Sending Touch (ACTION_UP): 0:(622.1309,1296.2742)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(548.0,1329.0)
+:Sending Touch (ACTION_UP): 0:(547.86285,1328.438)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(272.0,1440.0)
+:Sending Touch (ACTION_UP): 0:(257.29208,1446.1237)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(383.0,1220.0)
+:Sending Touch (ACTION_MOVE): 0:(389.81952,1219.1052)
+:Sending Touch (ACTION_MOVE): 0:(393.35117,1214.4883)
+:Sending Touch (ACTION_MOVE): 0:(401.35876,1211.7653)
+:Sending Touch (ACTION_MOVE): 0:(403.7221,1202.2576)
+:Sending Touch (ACTION_MOVE): 0:(412.9269,1198.8156)
+:Sending Touch (ACTION_MOVE): 0:(413.71298,1189.8579)
+:Sending Touch (ACTION_MOVE): 0:(419.69016,1181.4364)
+:Sending Touch (ACTION_UP): 0:(423.49054,1178.546)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(507.0,1159.0)
+:Sending Touch (ACTION_UP): 0:(520.8515,1153.872)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(986.0,1288.0)
+:Sending Touch (ACTION_UP): 0:(992.1915,1286.0695)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,938.0)
+:Sending Touch (ACTION_UP): 0:(949.12665,937.3865)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(138.0,1512.0)
+:Sending Touch (ACTION_UP): 0:(139.98706,1512.9648)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1013.0,1767.0)
+:Sending Touch (ACTION_UP): 0:(1031.977,1763.7349)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(888.0,926.0)
+:Sending Touch (ACTION_UP): 0:(888.04724,934.6622)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(872.0,1139.0)
+:Sending Touch (ACTION_UP): 0:(882.0966,1134.0009)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(740.0,845.0)
+:Sending Touch (ACTION_UP): 0:(733.18286,849.07465)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(371.0,1868.0)
+:Sending Touch (ACTION_UP): 0:(364.7678,1869.2208)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(370.0,1533.0)
+:Sending Touch (ACTION_UP): 0:(363.70303,1519.2678)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(75.0,1442.0)
+:Sending Touch (ACTION_UP): 0:(94.29324,1426.9607)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(177.0,44.0)
+:Sending Touch (ACTION_UP): 0:(169.83539,35.353775)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1073.0,159.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,174.84883)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(933.0,1762.0)
+:Sending Touch (ACTION_UP): 0:(921.15814,1758.1663)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(786.0,1418.0)
+:Sending Touch (ACTION_UP): 0:(787.82904,1417.8368)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(651.0,885.0)
+:Sending Touch (ACTION_UP): 0:(642.0757,886.8695)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(357.0,699.0)
+:Sending Touch (ACTION_UP): 0:(357.3817,705.39484)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(819.0,1408.0)
+:Sending Touch (ACTION_UP): 0:(806.2897,1406.7634)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(278.0,40.0)
+:Sending Touch (ACTION_UP): 0:(280.1607,42.46925)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(450.0,950.0)
+:Sending Touch (ACTION_UP): 0:(458.03152,943.5609)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(184.0,1269.0)
+:Sending Touch (ACTION_UP): 0:(191.68202,1257.6368)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(723.0,316.0)
+:Sending Touch (ACTION_UP): 0:(709.53613,322.4769)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(888.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(889.1919,1066.2207)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(199.0,278.0)
+:Sending Touch (ACTION_UP): 0:(203.85219,266.6765)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+    //[calendar_time:2019-06-17 23:23:53.333  system_uptime:85593782]
+    // Sending event #1600
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(439.0,681.0)
+:Sending Touch (ACTION_UP): 0:(459.3852,686.8618)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(463.0,675.0)
+:Sending Touch (ACTION_UP): 0:(462.59653,689.2028)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(147.0,1774.0)
+:Sending Touch (ACTION_UP): 0:(153.46344,1773.3505)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(304.0,1552.0)
+:Sending Touch (ACTION_UP): 0:(302.34702,1550.0071)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(931.0,456.0)
+:Sending Touch (ACTION_UP): 0:(921.5292,465.37436)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(213.0,300.0)
+:Sending Touch (ACTION_UP): 0:(225.07365,299.01666)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(106.0,243.0)
+:Sending Touch (ACTION_UP): 0:(107.90377,239.79909)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(0.0,1435.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1434.6515)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(985.0,977.0)
+:Sending Touch (ACTION_UP): 0:(976.7111,977.0953)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1004.0,705.0)
+:Sending Touch (ACTION_UP): 0:(1000.8266,699.2872)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(952.0,447.0)
+:Sending Touch (ACTION_UP): 0:(930.44257,451.0906)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(834.0,1628.0)
+:Sending Touch (ACTION_UP): 0:(818.2733,1626.2451)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(585.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(586.6349,1155.5406)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(610.0,1757.0)
+:Sending Touch (ACTION_UP): 0:(618.1546,1744.9763)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(31.0,1242.0)
+:Sending Touch (ACTION_UP): 0:(32.32325,1228.8523)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(138.0,278.0)
+:Sending Touch (ACTION_UP): 0:(139.16574,292.73233)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(25.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(24.824177,1277.806)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1033.0,1517.0)
+:Sending Touch (ACTION_MOVE): 0:(1032.2894,1510.9128)
+:Sending Touch (ACTION_MOVE): 0:(1028.2173,1500.767)
+:Sending Touch (ACTION_MOVE): 0:(1027.2181,1498.9915)
+:Sending Touch (ACTION_MOVE): 0:(1026.1289,1492.8322)
+:Sending Touch (ACTION_MOVE): 0:(1023.6939,1481.7747)
+:Sending Touch (ACTION_MOVE): 0:(1020.3145,1478.3502)
+:Sending Touch (ACTION_MOVE): 0:(1015.9799,1472.1023)
+:Sending Touch (ACTION_MOVE): 0:(1011.72626,1461.8905)
+:Sending Touch (ACTION_UP): 0:(1010.69214,1457.3159)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(523.0,1775.0)
+:Sending Touch (ACTION_UP): 0:(524.95807,1778.4791)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(613.0,1720.0)
+:Sending Touch (ACTION_UP): 0:(607.8233,1716.7224)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(922.0,508.0)
+:Sending Touch (ACTION_UP): 0:(921.31805,492.28506)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(726.0,955.0)
+:Sending Touch (ACTION_UP): 0:(732.3465,936.7262)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1075.0,1372.0)
+:Sending Touch (ACTION_UP): 0:(1073.8201,1375.6857)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(69.0,173.0)
+:Sending Touch (ACTION_UP): 0:(67.77552,169.13228)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(535.0,996.0)
+:Sending Touch (ACTION_UP): 0:(535.57513,973.63495)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(883.0,203.0)
+:Sending Touch (ACTION_UP): 0:(882.44464,202.7254)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1059.0,330.0)
+:Sending Touch (ACTION_UP): 0:(1069.7892,312.8955)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(898.0,955.0)
+:Sending Touch (ACTION_UP): 0:(902.98444,949.89374)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(730.0,1698.0)
+:Sending Touch (ACTION_UP): 0:(743.1091,1697.5027)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(852.0,1799.0)
+:Sending Touch (ACTION_UP): 0:(850.1409,1805.2974)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(970.0,167.0)
+:Sending Touch (ACTION_UP): 0:(968.284,165.89851)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+    //[calendar_time:2019-06-17 23:23:59.565  system_uptime:85600013]
+    // Sending event #1700
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(800.0,539.0)
+:Sending Touch (ACTION_UP): 0:(789.9761,538.9913)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(591.0,1332.0)
+:Sending Touch (ACTION_MOVE): 0:(595.00696,1339.3147)
+:Sending Touch (ACTION_MOVE): 0:(599.9237,1348.6897)
+:Sending Touch (ACTION_MOVE): 0:(600.5564,1353.307)
+:Sending Touch (ACTION_MOVE): 0:(604.362,1365.8373)
+:Sending Touch (ACTION_MOVE): 0:(605.9693,1378.8157)
+:Sending Touch (ACTION_UP): 0:(607.1044,1390.4467)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(168.0,109.0)
+:Sending Touch (ACTION_UP): 0:(158.99593,89.822525)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(934.0,1839.0)
+:Sending Touch (ACTION_UP): 0:(934.49774,1853.7777)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(47.0,488.0)
+:Sending Touch (ACTION_UP): 0:(49.026096,491.2996)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(605.0,153.0)
+:Sending Touch (ACTION_UP): 0:(618.90173,150.13849)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(787.0,1553.0)
+:Sending Touch (ACTION_UP): 0:(781.56415,1545.566)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,1473.0)
+:Sending Touch (ACTION_UP): 0:(557.2319,1457.2812)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(489.0,951.0)
+:Sending Touch (ACTION_UP): 0:(489.52945,936.92786)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(262.0,474.0)
+:Sending Touch (ACTION_UP): 0:(260.81418,474.39307)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(305.0,1807.0)
+:Sending Touch (ACTION_UP): 0:(305.4244,1806.567)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(133.0,72.0)
+:Sending Touch (ACTION_UP): 0:(134.72325,87.23332)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(325.0,885.0)
+:Sending Touch (ACTION_UP): 0:(324.5169,870.97235)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(548.0,109.0)
+:Sending Touch (ACTION_UP): 0:(551.0051,114.0149)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(462.0,1192.0)
+:Sending Touch (ACTION_UP): 0:(472.007,1204.0106)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1033.0,441.0)
+:Sending Touch (ACTION_UP): 0:(1039.4275,440.62314)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(784.0,1819.0)
+:Sending Touch (ACTION_UP): 0:(784.08203,1830.4686)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(57.0,1420.0)
+:Sending Touch (ACTION_UP): 0:(51.01865,1414.4725)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(207.0,1754.0)
+:Sending Touch (ACTION_UP): 0:(216.09883,1754.6213)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(812.0,1915.0)
+:Sending Touch (ACTION_UP): 0:(818.4455,1920.0)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(736.0,1491.0)
+:Sending Touch (ACTION_MOVE): 0:(719.23395,1480.6523)
+:Sending Touch (ACTION_MOVE): 0:(705.9423,1479.4475)
+:Sending Touch (ACTION_MOVE): 0:(688.8496,1477.095)
+:Sending Touch (ACTION_MOVE): 0:(673.3769,1468.6582)
+:Sending Touch (ACTION_MOVE): 0:(656.445,1455.1613)
+:Sending Touch (ACTION_MOVE): 0:(644.8018,1440.5978)
+:Sending Touch (ACTION_UP): 0:(636.2563,1431.0739)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1045.0,32.0)
+:Sending Touch (ACTION_UP): 0:(1047.44,31.30734)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(737.0,1585.0)
+:Sending Touch (ACTION_UP): 0:(742.5585,1589.5448)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(7.0,1855.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1840.2925)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,518.0)
+:Sending Touch (ACTION_UP): 0:(629.1752,533.96826)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(435.0,1718.0)
+:Sending Touch (ACTION_UP): 0:(428.03885,1707.2076)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(587.0,975.0)
+:Sending Touch (ACTION_UP): 0:(569.3464,965.683)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(814.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(814.3146,1077.3542)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(589.0,515.0)
+:Sending Touch (ACTION_UP): 0:(574.4676,516.1227)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(833.0,1476.0)
+:Sending Touch (ACTION_UP): 0:(827.6589,1480.3547)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(992.0,1402.0)
+:Sending Touch (ACTION_UP): 0:(982.7212,1404.5317)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(193.0,1202.0)
+:Sending Touch (ACTION_UP): 0:(189.31828,1182.4397)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(43.0,574.0)
+:Sending Touch (ACTION_UP): 0:(37.43445,558.675)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1044.0,38.0)
+:Sending Touch (ACTION_UP): 0:(1042.372,44.054913)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(365.0,1463.0)
+:Sending Touch (ACTION_UP): 0:(357.78125,1462.9597)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(593.0,1574.0)
+:Sending Touch (ACTION_MOVE): 0:(595.3602,1572.5118)
+:Sending Touch (ACTION_MOVE): 0:(597.3621,1558.9991)
+:Sending Touch (ACTION_MOVE): 0:(598.63513,1556.9425)
+    //[calendar_time:2019-06-17 23:24:06.174  system_uptime:85606622]
+    // Sending event #1800
+:Sending Touch (ACTION_UP): 0:(601.13574,1543.8185)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(25.0,287.0)
+:Sending Touch (ACTION_UP): 0:(28.26616,281.77933)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(237.0,40.0)
+:Sending Touch (ACTION_UP): 0:(233.05339,41.537712)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(1061.0,1213.0)
+:Sending Touch (ACTION_UP): 0:(1052.5134,1214.6058)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(341.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(327.33698,1406.1206)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(879.0,1594.0)
+:Sending Touch (ACTION_UP): 0:(888.91095,1595.9329)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(812.0,640.0)
+:Sending Touch (ACTION_UP): 0:(800.9856,637.91003)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(751.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(753.8858,1101.4283)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.DevelopmentSettings } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(884.0,1657.0)
+:Sending Touch (ACTION_UP): 0:(874.9075,1671.6533)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(701.0,1032.0)
+:Sending Touch (ACTION_UP): 0:(705.10767,1025.8235)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,1741.0)
+:Sending Touch (ACTION_UP): 0:(173.76428,1732.6171)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(369.0,630.0)
+:Sending Touch (ACTION_UP): 0:(371.54297,630.6893)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(807.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(793.93414,1445.8304)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.settings/.DevelopmentSettings } in package com.android.settings
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(350.0,1688.0)
+:Sending Touch (ACTION_UP): 0:(353.36234,1694.5319)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(975.0,522.0)
+:Sending Touch (ACTION_UP): 0:(972.81195,541.0666)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(17.0,991.0)
+:Sending Touch (ACTION_UP): 0:(17.764122,990.9644)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(720.0,1452.0)
+:Sending Touch (ACTION_UP): 0:(719.137,1447.3093)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(741.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(742.0152,1097.722)
+Sleeping for 150 milliseconds
+    // Rejecting start of Intent { cmp=com.meizu.media.ebook/com.igexin.sdk.GActivity } in package com.meizu.media.ebook
+:Sending Touch (ACTION_DOWN): 0:(557.0,1330.0)
+:Sending Touch (ACTION_UP): 0:(565.68176,1311.1172)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(797.0,222.0)
+:Sending Touch (ACTION_UP): 0:(796.40216,218.18275)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(441.0,214.0)
+:Sending Touch (ACTION_UP): 0:(447.1062,209.9236)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(926.0,1528.0)
+:Sending Touch (ACTION_UP): 0:(930.7825,1526.8014)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(582.0,797.0)
+:Sending Touch (ACTION_UP): 0:(574.84265,793.3211)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(638.0,274.0)
+:Sending Touch (ACTION_UP): 0:(646.0874,278.98245)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(635.0,45.0)
+:Sending Touch (ACTION_UP): 0:(637.6428,49.79206)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1052.0,1622.0)
+:Sending Touch (ACTION_UP): 0:(1056.193,1603.2489)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(681.0,522.0)
+:Sending Touch (ACTION_UP): 0:(684.17615,531.4265)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,380.0)
+:Sending Touch (ACTION_UP): 0:(151.76132,386.45966)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(425.0,1277.0)
+:Sending Touch (ACTION_UP): 0:(414.83197,1266.2277)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(927.0,1613.0)
+:Sending Touch (ACTION_UP): 0:(927.1059,1613.5923)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(996.0,7.0)
+:Sending Touch (ACTION_UP): 0:(1000.88367,18.438797)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1050.0,1790.0)
+:Sending Touch (ACTION_UP): 0:(1048.7843,1811.4617)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(872.0,1865.0)
+:Sending Touch (ACTION_UP): 0:(863.3783,1862.4309)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(26.0,1917.0)
+:Sending Touch (ACTION_UP): 0:(31.112057,1919.3002)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(132.0,54.0)
+:Sending Touch (ACTION_UP): 0:(128.76714,45.973614)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(544.0,420.0)
+:Sending Touch (ACTION_UP): 0:(531.8958,426.93793)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(927.0,530.0)
+:Sending Touch (ACTION_UP): 0:(919.09894,527.95966)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(794.0,371.0)
+:Sending Touch (ACTION_UP): 0:(786.59607,375.5515)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(189.0,937.0)
+:Sending Touch (ACTION_UP): 0:(208.05205,939.61115)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(567.0,152.0)
+:Sending Touch (ACTION_UP): 0:(574.1474,155.73558)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(672.0,935.0)
+:Sending Touch (ACTION_MOVE): 0:(669.79193,934.5844)
+:Sending Touch (ACTION_MOVE): 0:(663.3799,934.45886)
+:Sending Touch (ACTION_MOVE): 0:(659.07855,934.0453)
+:Sending Touch (ACTION_UP): 0:(638.4252,933.7852)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(671.0,73.0)
+:Sending Touch (ACTION_MOVE): 0:(670.03925,75.70686)
+:Sending Touch (ACTION_MOVE): 0:(663.36554,77.16742)
+    //[calendar_time:2019-06-17 23:24:14.663  system_uptime:85615111]
+    // Sending event #1900
+:Sending Touch (ACTION_UP): 0:(646.51733,77.62427)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(804.0,135.0)
+:Sending Touch (ACTION_UP): 0:(812.20593,137.07188)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1009.0,490.0)
+:Sending Touch (ACTION_UP): 0:(1022.3102,490.28418)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(256.0,18.0)
+:Sending Touch (ACTION_UP): 0:(254.14833,21.792603)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(268.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(264.97287,1364.5161)
+Sleeping for 150 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+:Sending Touch (ACTION_DOWN): 0:(741.0,1178.0)
+:Sending Touch (ACTION_UP): 0:(739.1916,1184.3126)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,1397.0)
+:Sending Touch (ACTION_UP): 0:(277.69785,1388.9414)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(194.0,595.0)
+:Sending Touch (ACTION_UP): 0:(178.78548,572.4259)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(645.0,1734.0)
+:Sending Touch (ACTION_UP): 0:(622.1075,1709.8416)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(85.0,1677.0)
+:Sending Touch (ACTION_UP): 0:(91.28543,1665.9357)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(135.0,673.0)
+:Sending Touch (ACTION_UP): 0:(140.21062,677.4666)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1058.0)
+:Sending Touch (ACTION_UP): 0:(360.92072,1052.3822)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(866.0,922.0)
+:Sending Touch (ACTION_UP): 0:(861.55005,916.0394)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(296.0,1283.0)
+:Sending Touch (ACTION_UP): 0:(290.8235,1283.6278)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(318.0,1735.0)
+:Sending Touch (ACTION_UP): 0:(309.6506,1729.6101)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(429.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(446.5505,1444.279)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(961.0,1064.0)
+:Sending Touch (ACTION_UP): 0:(960.34705,1066.1375)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(408.0,7.0)
+:Sending Touch (ACTION_UP): 0:(407.3296,5.6634364)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(799.0,1660.0)
+:Sending Touch (ACTION_UP): 0:(806.37665,1654.5319)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(895.0,1791.0)
+:Sending Touch (ACTION_UP): 0:(899.3876,1796.6602)
+Sleeping for 150 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.jifen.qukan/com.jifen.qkbase.main.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.jifen.qukan/com.jifen.qkbase.main.MainActivity } in package com.jifen.qukan
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(82.0,1361.0)
+:Sending Touch (ACTION_UP): 0:(65.87445,1370.6233)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(187.0,339.0)
+:Sending Touch (ACTION_UP): 0:(173.91847,338.2812)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(678.0,1560.0)
+:Sending Touch (ACTION_UP): 0:(683.67773,1569.4371)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(879.0,1793.0)
+:Sending Touch (ACTION_UP): 0:(877.1481,1795.2999)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(973.0,1888.0)
+:Sending Touch (ACTION_UP): 0:(964.8892,1882.9087)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(153.0,204.0)
+:Sending Touch (ACTION_UP): 0:(156.82677,199.7441)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(954.0,1828.0)
+:Sending Touch (ACTION_UP): 0:(945.1485,1824.0399)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1072.0,1439.0)
+:Sending Touch (ACTION_UP): 0:(1072.8842,1447.8739)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(320.0,1679.0)
+:Sending Touch (ACTION_UP): 0:(320.36182,1661.6259)
+Sleeping for 150 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(978.0,146.0)
+:Sending Touch (ACTION_UP): 0:(961.71924,152.42361)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(127.0,879.0)
+:Sending Touch (ACTION_UP): 0:(121.73035,888.7123)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,1456.0)
+:Sending Touch (ACTION_UP): 0:(527.7498,1456.049)
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(404.0,1681.0)
+    //[calendar_time:2019-06-17 23:24:21.122  system_uptime:85621570]
+    // Sending event #2000
+:Sending Touch (ACTION_UP): 0:(403.06332,1673.789)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(478.0,841.0)
+:Sending Touch (ACTION_UP): 0:(477.21323,840.9261)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(842.0,1339.0)
+:Sending Touch (ACTION_UP): 0:(845.64154,1347.3762)
+    // Injection Failed
+Sleeping for 150 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(878.0,648.0)
+:Sending Touch (ACTION_UP): 0:(887.37177,650.517)
+    // Injection Failed
+Sleeping for 150 milliseconds
