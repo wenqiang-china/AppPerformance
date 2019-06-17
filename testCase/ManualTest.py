@@ -24,7 +24,6 @@ Config = AppPerCon()
 MemTestFlag = 0
 monkey_log=''
 path_log=''
-raise SystemExit("好了")
 
 
 # 手机信息

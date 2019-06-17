@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-import os,shutil
+import os,shutil,sys
+from pathlib import Path
 import threading
 import time,datetime,subprocess
 
+sys.path.extend([str(Path(__file__).resolve().parents[0]), str(Path(__file__).resolve().parents[1])])
 from PerConfig import AppPerCon
 from lib.AppAdbCom import AdbDebug
 from lib.AppDevInfo import DeviceMsg
