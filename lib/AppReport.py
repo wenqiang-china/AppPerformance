@@ -22,6 +22,23 @@ class Report(object):
     def createComparReport(self):
         pass
 
+    @classmethod
+    def demo(cls):
+        page = Page("测试报告")
+        line = Line("测试", width=1200, height=400)
+        data_one = [list(range(1, 6)), [2, 5, 6, 3, 7]]
+        data_two = list(range(1, 6)), [3, 9, 1, 2, 4]
+        line.add("第一条曲线", data_one[0], data_one[1])
+        line.add("第二条曲线", data_two[0], data_two[1])
+        bar1 = Bar()
+        bar1.add("ROKI_bar", data_one[0], data_one[1])
+        bar1.add("ROKI_bar", data_two[0], data_two[1])
+        overlap1 = Overlap(width=1200, height=400)
+        overlap1.add(line)
+        overlap1.add(bar1)
+        page.add(overlap1)
+        page.render("test.html")
+
     def createReport(self, dev):
         lisMem = pick.readInfo(AppPerCon.info_path + self.dev + '_' + self.pack + '_' + self.flag + "_mem.pickle")
         lisCpu = pick.readInfo(AppPerCon.info_path + self.dev + '_' + self.pack + '_' + self.flag + "_cpu.pickle")
