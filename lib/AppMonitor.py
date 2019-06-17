@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import os,subprocess,time,re,time
-import AppAdbCom
+from lib import AppAdbCom
 from lib.AppOperatePick import OperatePick
 from PerConfig import AppPerCon
 from wsgiref.validate import validator
@@ -58,7 +58,7 @@ class AppMoni(object):
         print("--------battery--------")
         if self.IsIP(target) == True:
             target = target.split(':')[0].replace(".", "")
-            print type(battery)
+            print(type(battery))
             pick.writeInfo(battery, PATH(Config.info_path + target + "_battery.pickle"))
         else:
             pick.writeInfo(battery, PATH(Config.info_path + target + "_battery.pickle"))
@@ -347,7 +347,7 @@ class AppMoni(object):
                                    PATH(Config.info_path + dev + "_" + Config.package_name + "_" + "Manual_fps.pickle"))
             return _fps
         except Exception as e:
-            print "请打开开发者模式中的GPU显示"
+            print("请打开开发者模式中的GPU显示")
 
 
     # 获得指定应用上下行流量信息

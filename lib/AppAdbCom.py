@@ -184,7 +184,7 @@ class AdbDebug(object):
             if  result.rsplit(":")[1][19:23] == "inet":
                 return result.rsplit(":")[2][:13]
             else:
-                print "WIFI未开启，请打开WIFI开关"
+                print("WIFI未开启，请打开WIFI开关")
                 return
         else:
             return result.rsplit(":")[1][4:17]
@@ -240,7 +240,7 @@ class AdbDebug(object):
             if flag == 1:
              #   self.adbStartActivity(target, activity)
                 pid = self.adbGetPid(target, packname)
-                print pid
+                print(pid)
                 lis = self.call_adb("-s %s shell cat /proc/%s/net/dev" % (target, pid)).strip().split()
                 for k, v in enumerate(lis):
                     if v == 'wlan0:':
@@ -265,7 +265,7 @@ class AdbDebug(object):
         if int(self.adbGetAndroidVersion(target).split('.')[0]) < 8:
             pid = self.call_adb("-s %s shell ps | findstr %s"%(target, packname)).rstrip().split("\n")
             if pid == ['']:
-                print "this process doesn't exist"
+                print("this process doesn't exist")
                 return None
             else:
                 for item in pid:
@@ -274,7 +274,7 @@ class AdbDebug(object):
         else:
             pid = self.call_adb("-s %s shell top -n 1 | findstr %s" % (target, packname)).strip().split()
             if pid == []:
-                print "this process doesn't exist"
+                print("this process doesn't exist")
                 return None
             else:
                 return pid[0]

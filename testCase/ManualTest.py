@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-import os,shutil
+import os,shutil, sys
+from pathlib import Path
 import threading
 import time,datetime,subprocess
-
+sys.path.extend([str(Path(__file__).resolve().parents[0]), str(Path(__file__).resolve().parents[1])])
 from PerConfig import AppPerCon
 from lib.AppAdbCom import AdbDebug
 from lib.AppDevInfo import DeviceMsg
@@ -23,7 +24,7 @@ Config = AppPerCon()
 MemTestFlag = 0
 monkey_log=''
 path_log=''
-
+raise SystemExit("好了")
 
 
 # 手机信息
@@ -70,13 +71,13 @@ def logProcess(dev, runtime):
     logcat_log = path_log + "\\" + runtime + "logcat.log"
     cmd_logcat = "-s " + dev + " logcat -d > %s" % (logcat_log)
     ad.call_adb(cmd_logcat)
-    print 'logcat 完成'
+    print('logcat 完成')
 
     # "导出traces文件"
     traces_log = path_log + "\\" + runtime + "traces.log"
     cmd_traces = "-s " + dev + " shell cat /data/anr/traces.txt > %s" % (traces_log)
     ad.call_adb(cmd_traces)
-    print 'traces_log 完成'
+    print('traces_log 完成')
 
 def start(dev):
     rt = os.popen('adb devices').readlines()  # os.popen()执行系统命令并返回执行后的结果

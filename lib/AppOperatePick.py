@@ -18,7 +18,7 @@ class OperatePick(object):
                 data = []
                 print("读取文件错误,文件内容为空")
         print("------read-------")
-        print data
+        print(data)
         return data
 
     def writeSum(self, init, data=None, path="data.pickle"):
@@ -30,7 +30,7 @@ class OperatePick(object):
 
         with open(path, 'wb') as f:
             print("------writeSum-------")
-            print "Sum:%s" % result
+            print("Sum:%s" % result)
             pickle.dump(result, f)
 
     def readSum(self, path):
@@ -54,5 +54,5 @@ class OperatePick(object):
             result.append(data)
         with open(path, 'wb') as f:
             print("------writeInfo-------")
-            print result
+            print(result)
             pickle.dump(result, f)
